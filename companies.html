@@ -1,75 +1,380 @@
 ---
 layout: page
-title: Companies
+title: 'Companies'
 ---
-<ul class="toolbar">
-    <li>{"<a href="http://scraping.apievangelist.com/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
-    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
-</ul>
-
-<h1 class="title">Companies</h1>
-<p>These are the companies I am keeping an eye on when it comes to scraping and harvest to then deploy APIs. As I see patterns emerge across providers, I will start to breaking companies into smaller groups, but for now I will list them all, with any supporting details for each provider.</p>
-<p><br /></p>
-{% raw  %}
-<script id="companyListingTemplate" type="text/template">       
-    <tr>
-        <td align="left" valign="top">
-            <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="{{logo_width}}" align="left" style="padding: 15px;" /></a>
-            <a href="" id="home-name-link-{{id}}" style="color: #000;"><strong>{{name}}</strong></a><p>{{details}}</p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" valign="top">   
-        	           
-	        <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	   
-	        <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" style="display: inline; margin: 10px; width: 36px;" /></a>
-	   
-	        <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" style="display: inline; margin: 10px; width: 45px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" style="display: inline; margin: 10px; width: 50px;" /></a>            
-			<hr />
-		</td>
-	</tr>                                                                                                  
-</script>
-{% endraw %}
-
-<table id="companyListing" style="" width="100%" cellpadding="1" cellspacing="1" border="0"></table>
-
-<script type="text/javascript">
-function listCompanies()
-    {
-    $.getJSON('/data/companies.json', function(data) {
-        toggle = 0;
-         $.each(data['company'], function(key, val) {
-            var template = $('#companyListingTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);     
-                        
-            id = val['id'];
-            website = val['website'];
-            //alert(website);
-            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
-            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
-            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
-                                    
-            blog = val['blog'];
-            if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
-                            
-            blogrss = val['blogrss'];
-            if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
-            
-            twitter = val['twitter'];
-            if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
-            
-            github = val['github'];
-            if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
-                        
-                                 
-            });
-        });
-    } 
-listCompanies();
-</script>
+<p>These are the organizations I am tracking on as part of my API research in this area.</p>
+<table width="100%" border="0"><tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://www.alchemyapi.com/" id="home-logo-link-152"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/alchemy-api-logo.png" width="175" align="left" style="padding: 15px;" /></a>
+<a href="http://www.alchemyapi.com/" id="home-name-link-152" style="color: #000;"><strong>AlchemyAPI</strong></a><p style="font-size: 14px;">The product of over 50 person years of engineering effort AlchemyAPI is a text mining platform providing the most comprehensive set of semantic analysis capabilities in the natural language processing field Used over 3 billion times every month AlchemyAPI enables customers to perform largescale social media monitoring target advertisements more effectively track influencers and sentiment within the media automate content aggregation and recommendation make more accurate stock trading decisions enhance business and government intelligence systems and create smarter applications and services</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://www.alchemyapi.com/" target="_blank" title="Website" id="home-icon-152"><img id="home-icon-img-152" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.alchemyapi.com/" target="_blank" title="Blog" id="blog-icon-152"><img id="blog-icon-img-152" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://www.alchemyapi.com/blog.xml?feed=rss2" target="_blank" title="Blog RSS" id="blogrss-icon-152"><img id="blogrss-icon-img-152" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/alchemyapi" target="_blank" title="Twitter" id="twitter-icon-152"><img id="twitter-icon-img-152" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/AlchemyAPI" target="_blank" title="Githube" id="github-icon-152"><img id="github-icon-img-152" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://commoncrawl.org/" id="home-logo-link-1920"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/common-crawl-logo-2.png" width="175" align="left" style="padding: 15px;" /></a>
+<a href="http://commoncrawl.org/" id="home-name-link-1920" style="color: #000;"><strong>CommonCrawl</strong></a><p style="font-size: 14px;">Common Crawl is a nonprofit foundation dedicated to providing an open repository of web crawl data that can be accessed and analyzed by everyone Common Crawl Foundation is a California 501c3 registered nonprofit founded by Gil Elbaz with the goal of democratizing access to web information by producing and maintaining an open repository of web crawl data that is universally accessible and analyzable</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://commoncrawl.org/" target="_blank" title="Website" id="home-icon-1920"><img id="home-icon-img-1920" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://commoncrawl.org/blog/" target="_blank" title="Blog" id="blog-icon-1920"><img id="blog-icon-img-1920" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://commoncrawl.org/feed/" target="_blank" title="Blog RSS" id="blogrss-icon-1920"><img id="blogrss-icon-img-1920" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/CommonCrawl" target="_blank" title="Twitter" id="twitter-icon-1920"><img id="twitter-icon-img-1920" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/commoncrawl" target="_blank" title="Githube" id="github-icon-1920"><img id="github-icon-img-1920" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://convextra.com/" id="home-logo-link-1922"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/convextra-logo.png" width="175" align="left" style="padding: 15px;" /></a>
+<a href="http://convextra.com/" id="home-name-link-1922" style="color: #000;"><strong>ConvExtra</strong></a><p style="font-size: 14px;">Convextra allows you collect valuable data from internet and represents it in easytouse CVS format for forther utilization</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://convextra.com/" target="_blank" title="Website" id="home-icon-1922"><img id="home-icon-img-1922" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://docs.import.io/" id="home-logo-link-1728"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1728_logo.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="http://docs.import.io/" id="home-name-link-1728" style="color: #000;"><strong>import.io</strong></a><p style="font-size: 14px;">Importio turns the web into a database releasing the vast potential of data trapped in websites Allowing you to identify a website select the data and treat it as a table in your database In effect transform the data into a row and column format You can then add more websites to your data set the same as adding more rows and query in realtime to access the data</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://docs.import.io/" target="_blank" title="Website" id="home-icon-1728"><img id="home-icon-img-1728" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.import.io/" target="_blank" title="Blog" id="blog-icon-1728"><img id="blog-icon-img-1728" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/importio" target="_blank" title="Twitter" id="twitter-icon-1728"><img id="twitter-icon-img-1728" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/import-io" target="_blank" title="Githube" id="github-icon-1728"><img id="github-icon-img-1728" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="https://www.kimonolabs.com/" id="home-logo-link-2212"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kimono-labs-logo.png" width="140" align="left" style="padding: 15px;" /></a>
+<a href="https://www.kimonolabs.com/" id="home-name-link-2212" style="color: #000;"><strong>Kimono Labs</strong></a><p style="font-size: 14px;">Kimono is a way to turn websites into structured APIs from your browser in seconds You donrsquot need to write any code or install any software to extract data with Kimono The easiest way to use Kimono is to add our bookmarklet to your browserrsquos bookmark bar Then go to the website you want to get data from and click the bookmarklet Select the data you want and Kimono does the rest</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="https://www.kimonolabs.com/" target="_blank" title="Website" id="home-icon-2212"><img id="home-icon-img-2212" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.kimonolabs.com/" target="_blank" title="Blog" id="blog-icon-2212"><img id="blog-icon-img-2212" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.kimonolabs.com/feed/" target="_blank" title="Blog RSS" id="blogrss-icon-2212"><img id="blogrss-icon-img-2212" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/kimonolabs" target="_blank" title="Twitter" id="twitter-icon-2212"><img id="twitter-icon-img-2212" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://motyar.info/webscrapemaster/" id="home-logo-link-1500"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/web-scrape-master-logo-2.png" width="175" align="left" style="padding: 15px;" /></a>
+<a href="http://motyar.info/webscrapemaster/" id="home-name-link-1500" style="color: #000;"><strong>Motyar</strong></a><p style="font-size: 14px;">Scrape web without writing code for it To create value from the sea of data being published over web Data is CurrencyAPI Web scrape master provides a very simple API for retrieving scrape datanbsp</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://motyar.info/webscrapemaster/" target="_blank" title="Website" id="home-icon-1500"><img id="home-icon-img-1500" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://motyar.blogspot.com/" target="_blank" title="Blog" id="blog-icon-1500"><img id="blog-icon-img-1500" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://motyar.blogspot.com/feeds/posts/default?alt=rss" target="_blank" title="Blog RSS" id="blogrss-icon-1500"><img id="blogrss-icon-img-1500" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/motyar" target="_blank" title="Twitter" id="twitter-icon-1500"><img id="twitter-icon-img-1500" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://www.mozenda.com" id="home-logo-link-1919"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mozenda-logo.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="http://www.mozenda.com" id="home-name-link-1919" style="color: #000;"><strong>Mozenda</strong></a><p style="font-size: 14px;">Web data extraction and mashups are easy with Mozenda Were industry leaders in screen scraping and data integration</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://www.mozenda.com" target="_blank" title="Website" id="home-icon-1919"><img id="home-icon-img-1919" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://www.mozenda.com/blog/" target="_blank" title="Blog" id="blog-icon-1919"><img id="blog-icon-img-1919" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://www.mozenda.com/blog/?feed=rss2" target="_blank" title="Blog RSS" id="blogrss-icon-1919"><img id="blogrss-icon-img-1919" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="http://www.twitter.com/mozenda" target="_blank" title="Twitter" id="twitter-icon-1919"><img id="twitter-icon-img-1919" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://www.pagemunch.com" id="home-logo-link-1569"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/page-munch-logo.png" width="80" align="left" style="padding: 15px;" /></a>
+<a href="http://www.pagemunch.com" id="home-name-link-1569" style="color: #000;"><strong>PageMunch</strong></a><p style="font-size: 14px;">Page Munch is a simple API that allows you to turn web pages into rich structured JSON Easily extract photos videos event author and other metadata from any page on the internet in milliseconds</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://www.pagemunch.com" target="_blank" title="Website" id="home-icon-1569"><img id="home-icon-img-1569" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/PageMunch" target="_blank" title="Twitter" id="twitter-icon-1569"><img id="twitter-icon-img-1569" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/PageMunch" target="_blank" title="Githube" id="github-icon-1569"><img id="github-icon-img-1569" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="https://www.parsehub.com/" id="home-logo-link-11394"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/parsehub-logo.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="https://www.parsehub.com/" id="home-name-link-11394" style="color: #000;"><strong>ParseHub</strong></a><p style="font-size: 14px;">Turn dynamic websites into APIs You can extract data from anywhere ParseHub works with singlepage apps multipage apps and just about any other modern web technology ParseHub can handle Javascript AJAX cookies sessions and redirects You can easily fill in forms loop through dropdowns login to websites click on interactive maps and even deal with infinite scrolling</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="https://www.parsehub.com/" target="_blank" title="Website" id="home-icon-11394"><img id="home-icon-img-11394" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/parsehub" target="_blank" title="Twitter" id="twitter-icon-11394"><img id="twitter-icon-img-11394" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://promptcloud.com/" id="home-logo-link-2511"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/prompt-cloud-logo.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="http://promptcloud.com/" id="home-name-link-2511" style="color: #000;"><strong>PromptCloud</strong></a><p style="font-size: 14px;">PromptCloud opeartes on ldquoData as a Servicerdquo DaaS model and deals with largescale data crawl and extraction using cuttingedge technologies and cloud computing solutions Nutch Hadoop Lucene Cassandra etc Its proprietary software employs machine learning techniques to extract meaningful information from the web in desired format These data could be from reviews blogs product catalogs social sites travel datamdashbasically anything and everything on WWW Itrsquos a customized solution over simply being a massdata crawler so you only get the data you wish to see The solution provides both deep crawl and refresh crawl of the web pages in a structured format</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://promptcloud.com/" target="_blank" title="Website" id="home-icon-2511"><img id="home-icon-img-2511" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.promptcloud.com/" target="_blank" title="Blog" id="blog-icon-2511"><img id="blog-icon-img-2511" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.promptcloud.com/feeds/posts/default?alt=rss" target="_blank" title="Blog RSS" id="blogrss-icon-2511"><img id="blogrss-icon-img-2511" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/promptcloud" target="_blank" title="Twitter" id="twitter-icon-2511"><img id="twitter-icon-img-2511" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/promptcloud" target="_blank" title="Githube" id="github-icon-2511"><img id="github-icon-img-2511" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://scrapelogo.com/" id="home-logo-link-1825"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/scrape-logo.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="http://scrapelogo.com/" id="home-name-link-1825" style="color: #000;"><strong>ScrapeLogo</strong></a><p style="font-size: 14px;">ScrapeLogo has been discovered and developed by Maintop Businesses originally only for internal purposes It was coded as an independent service for several Maintoprsquos B2B projects When requests from other companies multiplied a private beta version was launched too We are now looking for the first beta testers who would like to show company logos on their websites and help us improve the quality and precision of our algorithm</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://scrapelogo.com/" target="_blank" title="Website" id="home-icon-1825"><img id="home-icon-img-1825" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="https://scraperwiki.com/" id="home-logo-link-247"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/798px-ScraperWiki_logo.png" width="175" align="left" style="padding: 15px;" /></a>
+<a href="https://scraperwiki.com/" id="home-name-link-247" style="color: #000;"><strong>ScraperWiki</strong></a><p style="font-size: 14px;">ScraperWiki is a webbased platform for collaboratively building programs to extract and analyze public online data in a wikilike fashion Scraper refers to screen scrapers programs that extract data from websites Wiki means that any user with programming experience can create or edit such programs for extracting new data or for analyzing existing datasets The main use of the website is providing a place for programmers and journalists to collaborate on analyzing public data</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="https://scraperwiki.com/" target="_blank" title="Website" id="home-icon-247"><img id="home-icon-img-247" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="https://blog.scraperwiki.com/blog/" target="_blank" title="Blog" id="blog-icon-247"><img id="blog-icon-img-247" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="https://blog.scraperwiki.com/feed/" target="_blank" title="Blog RSS" id="blogrss-icon-247"><img id="blogrss-icon-img-247" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/scraperwiki" target="_blank" title="Twitter" id="twitter-icon-247"><img id="twitter-icon-img-247" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/scraperwiki" target="_blank" title="Githube" id="github-icon-247"><img id="github-icon-img-247" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://scrapinghub.com/" id="home-logo-link-2509"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/scrapinghub-logo.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="http://scrapinghub.com/" id="home-name-link-2509" style="color: #000;"><strong>Scrapinghub</strong></a><p style="font-size: 14px;">Scrapinghub is a company that provides web crawling solutions including a platform for running crawlers a tool for building scrapers visually data feed providers DaaS and a consulting team to help startups and enterprises build and maintain their web crawling infrastructures</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://scrapinghub.com/" target="_blank" title="Website" id="home-icon-2509"><img id="home-icon-img-2509" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.scrapinghub.com/" target="_blank" title="Blog" id="blog-icon-2509"><img id="blog-icon-img-2509" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.scrapinghub.com/feed/" target="_blank" title="Blog RSS" id="blogrss-icon-2509"><img id="blogrss-icon-img-2509" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/ScrapingHub" target="_blank" title="Twitter" id="twitter-icon-2509"><img id="twitter-icon-img-2509" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/scrapinghub" target="_blank" title="Githube" id="github-icon-2509"><img id="github-icon-img-2509" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://scrapy.org/" id="home-logo-link-11435"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Scrapy_logo.jpg" width="150" align="left" style="padding: 15px;" /></a>
+<a href="http://scrapy.org/" id="home-name-link-11435" style="color: #000;"><strong>Scrapy</strong></a><p style="font-size: 14px;">An open source and collaborative framework for extracting the data you need from websites In a fast simple yet extensible way Scrapy is a fast highlevel screen scraping and web crawling framework used to crawl websites and extract structured data from their pages It can be used for a wide range of purposes from data mining to monitoring and automated testing</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://scrapy.org/" target="_blank" title="Website" id="home-icon-11435"><img id="home-icon-img-11435" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/ScrapyProject" target="_blank" title="Twitter" id="twitter-icon-11435"><img id="twitter-icon-img-11435" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/scrapy" target="_blank" title="Githube" id="github-icon-11435"><img id="github-icon-img-11435" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="http://screen-scraper.com/" id="home-logo-link-1921"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/screen-scraper-logo.png" width="175" align="left" style="padding: 15px;" /></a>
+<a href="http://screen-scraper.com/" id="home-name-link-1921" style="color: #000;"><strong>Screen Scraper</strong></a><p style="font-size: 14px;">Copying text from a web page Clicking links Entering data into forms and submitting Iterating through search results pages Downloading files PDF MS Word images etc</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="http://screen-scraper.com/" target="_blank" title="Website" id="home-icon-1921"><img id="home-icon-img-1921" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="http://blog.screen-scraper.com/" target="_blank" title="Blog" id="blog-icon-1921"><img id="blog-icon-img-1921" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" align="center" /></a></td>
+<td width="50"><a href="http://feeds.feedburner.com/screen-scrapeable" target="_blank" title="Blog RSS" id="blogrss-icon-1921"><img id="blogrss-icon-img-1921" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+</table>
