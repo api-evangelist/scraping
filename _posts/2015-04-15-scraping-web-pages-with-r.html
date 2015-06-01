@@ -7,5 +7,3 @@ domain: blog.ouseful.info
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-ouseful-info20150415scraping-web-pages-with-r.png
 ---
 
-<p>One of the things I tend to avoid doing in R, partly because there are better tools elsewhere, is screenscraping.With the release of the new rvest package, I thought I’d have a go at what amounts to one of the simplest webscraping activites – grabbing HTML tables out of webpages.The tables I had in my sights (when I can actually find them…) are the tables that appear on the newly designed FIA website that describe a range of timing results for F1 qualifying and races [quali example, race example].Inspecting an example target web page, whilst a menu allows you to select several different results tables, a quick look at the underlying HTML source code reveals that all the tables relevant to the session (that is, a particular race, or complete qualifying session) are described within a single page.So how can we grab those tables down from a target page?</p>
-
