@@ -598,8 +598,8 @@
 	{
 		"id": "uI6pkmQZZTtoB2TfcSTyL673f1dc86p7OmU7TgZfRYgu3RnecKKOAKm7eelSnzwAkdE7N9iobgSlCm86yKS43g117117",
 		"name": "TextRazor",
-		"summary": "The service provides analysis of selected text passages to identify named entities and statements of fact with disambiguation to distinguish similar text strings. It applies machine learning algorithms and natural language processing to connect a text sample with a knowledge base and identify known elements and their relationships. API methods support submission of a text sample to be parsed.",
-		"details": "The service provides analysis of selected text passages to identify named entities and statements of fact with disambiguation to distinguish similar text strings. It applies machine learning algorithms and natural language processing to connect a text sample with a knowledge base and identify known elements and their relationships. API methods support submission of a text sample to be parsed.",
+		"summary": "The service provides analysis of selected text passages to identify named entities and statements of fact with disambiguation to distinguish similar text strings. It applies machine learning algorithms and natural language processing to connect a text sample with a knowledge base and identify known elements and their relationships. API methods support submission of a text sample to be parsed.\u0026nbsp",
+		"details": "The service provides analysis of selected text passages to identify named entities and statements of fact with disambiguation to distinguish similar text strings. It applies machine learning algorithms and natural language processing to connect a text sample with a knowledge base and identify known elements and their relationships. API methods support submission of a text sample to be parsed.\u0026nbsp;",
 		"website": "http:\/\/www.textrazor.com",
 		"twitter": "https:\/\/twitter.com\/TextRazor",
 		"github": "https:\/\/github.com\/TextRazor",
