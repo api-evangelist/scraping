@@ -1,6 +1,6 @@
 title:        Scraping & APIs
 url:          http://scraping.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-dns.png
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-scraping.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -11,7 +11,7 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
 paginate: 150
 paginate_path: "/blog/page:num"
@@ -32,7 +32,7 @@ feature_image_width: 45
 
 # Project
 project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-globe.png
-project_summary: This is a research project to look at the role DNS plays in the API lifecycle. Since modern web APIs rely on the web for transport, DNS is a central actor throughout the API life cycle. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research report.
+project_summary: This is a research project to look at the role scraping plays in the API lifecycle. Whether we want to admit it or not many APIs find their origins in scraping of websites, and there is a direct relationship between data and content available as HTML, and making it available as JSON or XML via APIs. This is my research into this relationship, and you can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling I've aggregated here in this research projects Github repository.
 
 # Navigation
 navigation:
