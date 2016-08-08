@@ -6,13 +6,27 @@
 		"details": "Welcome to Akamaiu2019s Enhanced DNS service. Enhanced DNS is designed to integrate easily with your existing DNS infrastructure to provide a secure, high performance, highly available and scalable solution for DNS hosting. As part of this service, Akamai runs name servers in multiple networks and in many geographic locations that are capable of resolving queries for your zones. Akamaiu2019s IP Anycast technology is also capable of providing an unprecedented level of reliability and performance for name resolution.",
 		"website": "https://developer.akamai.com/api/luna/config-dns/overview.html",
 		"twitter": "https://twitter.com/Akamai",
-		"github": "",
+		"github": "https://github.com/akamai",
+		"apisjson_url": "http://theapistack.com/data/akamai-technologies/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/akamai",
+		"base_url": "https://developer.akamai.com/",
 		"blog": "https://blogs.akamai.com",
 		"blogrss": "http://blogs.akamai.com/feeds.html",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akamai-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akamai-logo.png",
-		"tags": null
+		"tags": [
+			"DNS",
+			"Cloud-Stack",
+			"Cloud Computing",
+			"Cloud",
+			"Bots",
+			"Applications",
+			"API-Stack",
+			"API LIfeycle"
+		]
 	},
 	{
 		"id": "NAzS116wMod33FWf8j116PiE97ZQTTC116LTdgJnOGux3WKT4fN9mKNgkpvE1UFn9smje123bhBD98rL4WgSkSfJe116eBSQ117117",
@@ -22,12 +36,43 @@
 		"website": "https://aws.amazon.com/route53/",
 		"twitter": "https://twitter.com/awscloud",
 		"github": "https://github.com/amazonwebservices",
+		"apisjson_url": "http://theapistack.com/data/amazon-web-services/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/amazonwebservices",
+		"base_url": "",
 		"blog": "http://aws.amazon.com/blogs/aws/",
 		"blogrss": "http://feeds.feedburner.com/AmazonWebServicesBlog",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-logo.jpg",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/amazon-aws-logo.jpg",
 		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-logo.jpg",
-		"tags": null
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/amazon-aws-logo.jpg",
+		"tags": [
+			"Voice",
+			"Virtualization",
+			"Storage-Stack",
+			"Real Time",
+			"Plans",
+			"Payments",
+			"Payment-API",
+			"Partners",
+			"My API Stack",
+			"Monitoring",
+			"Management",
+			"Hypermedia",
+			"File-Stack",
+			"DNS",
+			"Deployment",
+			"Compute-Stack",
+			"Cloud-Stack",
+			"Cloud Storage",
+			"Cloud Computing",
+			"BaaS",
+			"API-Stack",
+			"API Management Other",
+			"API LIfeycle",
+			"API Deployment Gateways",
+			"API Deployment Cloud"
+		]
 	},
 	{
 		"id": "Vp7c116xf1BMZYCBj6imor9TTyQ9TpAyDogCY1CgyCZg9Ktf252yBDn6leJTfiOSccb2UZtoOJXo60116oq116w1nN1g117117",
@@ -37,12 +82,22 @@
 		"website": "https://www.arin.net/resources/restful-interfaces.html",
 		"twitter": "https://twitter.com/TeamARIN",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arin-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arin-logo.png",
-		"tags": null
+		"tags": [
+			"Registry",
+			"Infrastructure",
+			"Green",
+			"DNS"
+		]
 	},
 	{
 		"id": "4hi8y8CW7Cqil6gU2123HAI9psKUAuimWJgmD8WSiDeFMUJbHQ7116UgL273jI2A1234yqgOs1MvwW2q4GUo6iQ9kTvg117117",
@@ -52,12 +107,22 @@
 		"website": "https://www.cloudflare.com",
 		"twitter": "https://twitter.com/CloudFlare",
 		"github": "https://github.com/cloudflare",
+		"apisjson_url": "http://theapistack.com/data/cloudflare/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/cloudflare",
+		"base_url": "https://www.cloudflare.com/docs/client-api.html",
 		"blog": "https://blog.cloudflare.com/",
 		"blogrss": "http://blog.cloudflare.com/rss/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png",
-		"tags": null
+		"tags": [
+			"Partners",
+			"My API Stack",
+			"DNS-Stack",
+			"DNS"
+		]
 	},
 	{
 		"id": "XNQEpxsu116NHzfqNlnX9Iwk7123BkfwjRrLWd6jHFJkimSIqyLXHoVw7ycmf7X3Y116FN4JGuc0ITJbooxEPmvPez123g117117",
@@ -67,12 +132,23 @@
 		"website": null,
 		"twitter": null,
 		"github": null,
+		"apisjson_url": null,
+		"sdksio_url": null,
+		"postman_url": null,
+		"portal_url": null,
+		"base_url": null,
 		"blog": null,
 		"blogrss": null,
 		"logo": "https://cdn.dnscheck.co/images/dns-check-icon.png",
 		"logo_width": null,
 		"screenshot": "https://cdn.dnscheck.co/images/dns-check-icon.png",
-		"tags": null
+		"tags": [
+			"spf record check",
+			"mx record check",
+			"dns monitor",
+			"dns check",
+			"DNS"
+		]
 	},
 	{
 		"id": "wZ9D3R12FXRI3IR6N0xrd9iUXQ3tuq3ywIMHVsZJ0NCnwXGZnoz4n7KiZJh0JqzhBdmV9CMVR86yeew1pY8G116w117117",
@@ -82,12 +158,22 @@
 		"website": "http://www.dnsmadeeasy.com",
 		"twitter": "https://twitter.com/dnsmadeeasy",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/dns-made-easy/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "http://www.dnsmadeeasy.com/integration/restapi/",
 		"blog": "",
 		"blogrss": "http://www.dnsmadeeasy.com/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dnsme-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dnsme-logo.png",
-		"tags": null
+		"tags": [
+			"Network-Stack",
+			"Domain",
+			"DNS",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "8iq7Ke3dkQRbOgD843K6xQ2fBiGIMb123fmUGU53PrwnXdBbil4wZ6T1162KoNx9116xC5o0rHvRE0MopPE4UUfaaa123A117117",
@@ -97,12 +183,22 @@
 		"website": "http://dnsimple.com",
 		"twitter": "https://twitter.com/dnsimple",
 		"github": "https://github.com/dnsimple",
+		"apisjson_url": "http://theapistack.com/data/dnsimple/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/dnsimple",
+		"base_url": "http://developer.dnsimple.com/",
 		"blog": "http://blog.dnsimple.com/",
 		"blogrss": "http://blog.dnsimple.com/rss",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/575_logo.jpg",
 		"logo_width": "125",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/575_logo.jpg",
-		"tags": null
+		"tags": [
+			"Network-Stack",
+			"Domain",
+			"DNS",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "TiTQU8PBwxOVk7Pc123tSDdf3utU123SicLmLwCR5CErEaCVeAWPTbMC02klRnDwH5PuCuDiVo4N96AswFT5rrOTWQ117117",
@@ -112,12 +208,25 @@
 		"website": "http://dyn.com/",
 		"twitter": "https://twitter.com/Dyn",
 		"github": "https://github.com/d21",
+		"apisjson_url": "http://theapistack.com/data/dyn/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/d21",
+		"base_url": "http://dyn.com/developers/",
 		"blog": "http://dyn.com/blog/",
 		"blogrss": "http://feeds.feedburner.com/dyn-blog",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.jpg",
-		"tags": null
+		"tags": [
+			"Partners",
+			"Messaging-Stack",
+			"Email API",
+			"Email",
+			"DNS-Stack",
+			"DNS",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "116LlfH1162es0Q1h5RrxfJuoIJEFaZh123STGyX1vlZn6eQYHaxZ43Rh3OuV80PFuGcTxMYMp3Yxauip7gcnS8fmfkg117117",
@@ -125,14 +234,47 @@
 		"summary": "Use Googles infrastructure for production quality, high volume DNS serving. Your users will have reliable, low-latency access to Googles infrastructure from anywhere in the world using our network of Anycast name servers.",
 		"details": "Use Googles infrastructure for production quality, high volume DNS serving. Your users will have reliable, low-latency access to Googles infrastructure from anywhere in the world using our network of Anycast name servers.",
 		"website": "https://cloud.google.com/dns/docs",
-		"twitter": "",
+		"twitter": "https://twitter.com/google",
 		"github": "https://github.com/google",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/google",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "http://feeds.feedburner.com/GoogleAdsDeveloperBlog",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg",
-		"tags": null
+		"tags": [
+			"Website-Stack",
+			"Utility-Stack",
+			"Translation-Stack",
+			"Transit",
+			"Task-Stack",
+			"Spreadsheets",
+			"Social",
+			"Search",
+			"Real Time",
+			"Platform-Stack",
+			"Photo-Stack",
+			"Payments",
+			"Payment-API",
+			"Partners",
+			"PaaS",
+			"Orange-Report-Transportation",
+			"My API Stack",
+			"Mapping",
+			"Indie EdTech Data Jam",
+			"Images-Stack",
+			"DNS",
+			"Deployment",
+			"Definitions",
+			"Database",
+			"API LIfeycle",
+			"API Deployment Cloud",
+			"Advertising"
+		]
 	},
 	{
 		"id": "i7oSLmk2a6rrWeg86DcCXRSQIuGdCVk12358RTN5Di3YkUP7SBIcGgfnJB6IX8ZoXkmxYHb4MtPABdc26IqdM76g117117",
@@ -142,12 +284,20 @@
 		"website": "http://docs.gslb.me/",
 		"twitter": "",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gslb-me-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gslb-me-logo.png",
-		"tags": null
+		"tags": [
+			"Hosting",
+			"DNS"
+		]
 	},
 	{
 		"id": "qJj2O8vu67cKgEaDpPT123rYktqHcfwqL40PDwr116OW7oK5Lus116ITuSXVKW8x9OIbSI3LlWQehgZKyKuDbkVduM9w117117",
@@ -157,12 +307,26 @@
 		"website": "http://www.rackspace.com/cloud/dns",
 		"twitter": "https://twitter.com/rackspace",
 		"github": "https://github.com/rackspace",
+		"apisjson_url": "http://theapistack.com/data/rackspace/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/rackspace",
+		"base_url": null,
 		"blog": "http://www.rackspace.com/blog/",
 		"blogrss": "http://www.rackspace.com/blog/feed/rss/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/rackspace-logo.jpg",
 		"logo_width": "160",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/rackspace-logo.jpg",
-		"tags": null
+		"tags": [
+			"Storage-Stack",
+			"DNS",
+			"Compute-Stack",
+			"Cloud-Stack",
+			"Cloud Storage",
+			"Cloud Computing",
+			"API-Stack",
+			"API LIfeycle"
+		]
 	},
 	{
 		"id": "ff8vMUjupwy3zfuvXSuPgV5AsT116g8Z4StZkEj2f116ItFfovmPvmMEQ2Yec8wbAymT9JODVxPPuCSVknKUGHhxNg117117",
@@ -172,12 +336,19 @@
 		"website": "http://www.statdns.com",
 		"twitter": "",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "http://www.statdns.com/api/",
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/StatDNS-Logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/StatDNS-Logo.png",
-		"tags": null
+		"tags": [
+			"DNS"
+		]
 	},
 	{
 		"id": "LY0Ka71HQJCZlDicc8HqJZ116LG1cuQkzDD9Hst116c123KfL1qjSeP7Q7scYfq1E2VfGkmgDj1PacXYRhL116AEeYFeIA117117",
@@ -187,11 +358,18 @@
 		"website": "https://www.zerigo.com/managed-dns",
 		"twitter": "https://twitter.com/zerigo",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "https://www.zerigo.com/blog",
 		"blogrss": "http://www.zerigo.com/blog.xml",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/zerigo-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/zerigo-logo.png",
-		"tags": null
+		"tags": [
+			"DNS"
+		]
 	}
 ]
