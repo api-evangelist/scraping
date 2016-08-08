@@ -1755,7 +1755,7 @@
 		"tool_id": "0ZfeRzK00UGLJ123Ygo3R116K123mbAEVFwIvuJYUcST7VR83RsTi9zRQ23J9uPpJKzlN62tGzInCaI7LLroSkWlpnmg117117",
 		"name": "python-scrapinghub",
 		"user": "scrapinghub",
-		"details": "A client interface for Scrapinghub\\\s API",
+		"details": "A client interface for Scrapinghubs API",
 		"post_date": "2016-07-26 00:05:09",
 		"url": "https://api.github.com/repos/scrapinghub/python-scrapinghub",
 		"blog_url": "",
