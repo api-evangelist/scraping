@@ -1,5 +1,157 @@
 [
 	{
+		"curated_id": "9BRfLbXAsIXS9RYiioynWUp28rP8123lGI116mJnHYgV116seLJgmzmOsNpaoE4hRV3i4D4qXVsnIISAcOFstOEnixPg117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "Extract Structured Data From Web Sites Using Analyze URL",
+		"url": "http://blog.algorithmia.com/extract-structured-data-analyze-url/",
+		"domain": "blog.algorithmia.com",
+		"image": ""
+	},
+	{
+		"curated_id": "JJygHhnZ50VCrMZ116K116SMfkFSMJsXnBuLClGMU123Vw1KBeXD4RC5g6toiGBhtC4GqIry5Qe2Fqa116ktK3evwwFfnQ117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "How to Fix Crawl Errors in Google Search Console",
+		"url": "https://moz.com/blog/how-to-fix-crawl-errors-in-google-search-console",
+		"domain": "moz.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YTR116hxbVH5Pmbo4UMq3A16q7LVLfbqgcjHn6mfrWXDs08K9i1234sqKOhd3EYCrhyUx2DC0ORYUM123lnA4fN0VWbw117117",
+		"item_date": "2016-09-15 14:44:08",
+		"title": "Tweet Nice shout out in the guardian for importio httpstcoHfdlZIzeEh",
+		"url": "https://twitter.com/importio/statuses/776537108315942912",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RVIt9xTqs9rIwkQcy4zJoBi1168iJ123e4XLBAQ1238WFEVfT116K368mbI2C5WwG2dJwbG123U4lq1NCgRdlbYix116Jey0BQ117117",
+		"item_date": "2016-09-13 09:57:02",
+		"title": "Tweet Learn how to handle Javascript in Scrapy with Splash httpstcojM2GwEpOiF opensource data python httpstcoD690EKjm7y",
+		"url": "https://twitter.com/ScrapyProject/statuses/775740080505909249",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123VCXQh9r6UygfMItbpcKYtiCPklUsxP5vPWqGOZ3rT1QCoLTIwIKDpw7b116cxF1161237y2sDSE116IupZB3tj52ZYeVw117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Screen Scraper Mitigation and Dogfooding Included in Riot Games039 Textbook API Justifications",
+		"url": "http://www.programmableweb.com/news/screen-scraper-mitigation-and-dogfooding-included-riot-games-textbook-api-justifications/elsewhere-web/2016/09/15",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "T9ovccZPGinYilNU116VwP0LIggMeFMEdGioVrjcLS7EnZ123dyPvCG8mj7p116NQunZyxHTSsZ6UFSXSs1jZK5JZ5rw117117",
+		"item_date": "2016-09-16 00:00:00",
+		"title": "Data Sets Containing Robotstxt Files and Non200 Responses",
+		"url": "http://commoncrawl.org/2016/09/robotstxt-and-404-redirect-data-sets/",
+		"domain": "commoncrawl.org",
+		"image": ""
+	},
+	{
+		"curated_id": "NbTytVeWk39xXZVsnOaeRYzz2v96ERFBsMqZufCRtSEHqyjTmjYJvVd1W1vCE5Kgs51236FT6t9dsbDnkcLbOSxw117117",
+		"item_date": "2016-09-16 00:00:00",
+		"title": "August 2016 Crawl Archive Now Available",
+		"url": "http://commoncrawl.org/2016/09/august-2016-crawl-archive-now-available/",
+		"domain": "commoncrawl.org",
+		"image": ""
+	},
+	{
+		"curated_id": "pp4qmp2enYOF9Hp9um1ljIb4Uo4vEwL5A4o3pyc9G4oE123116HTvz3b116Pf012327F116xhMy50vhSIeZr1BRRxQXXnvqg117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "Datawatch Because scraping data from legacy reports is critically important",
+		"url": "https://ctovision.com/2016/09/datawatch-scraping-data-legacy-reports-critically-important/",
+		"domain": "ctovision.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Z9WpoR0cfRzbnRCYW5ujOZ8zPXnfnTITmfsEwdxy57ekha7HLqqkX123FJAZxwx8ZOZiFbBddFt08j116ffpsoWyBA117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Extracting text from an image with OCR Optical Character Recognition using Nodejs",
+		"url": "https://community.havenondemand.com/t5/Blog/Extracting-text-from-an-image-with-OCR-Optical-Character/ba-p/3246",
+		"domain": "community.havenondemand.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FqRBmd3pKKjkraCIp5Z3mryNwCpSVcZJJi77OrJvPA0123v3Ofy7nmD9SlUK3ehV4o3123SMyYQY5oaUHaG5gaGevA117117",
+		"item_date": "2016-09-01 11:10:50",
+		"title": "Improved Frontera Web Crawling at Scale with Python 3 Support",
+		"url": "https://blog.scrapinghub.com/2016/09/01/improved-frontera-web-crawling-at-scale-with-python-3-support/",
+		"domain": "blog.scrapinghub.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jX8YkkOBkJDDp7473Nhpm0IiTVQqCweqzrN9tTb5dJZt2ilf63uHnNqkrXJNS123YAYxPIKH6HchaN7X3BbBvx1w117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Improved Frontera Web Crawling at Scale with Python 3 Support",
+		"url": "https://blog.scrapinghub.com/2016/09/01/improved-frontera-web-crawling-at-scale-with-python-3-support/",
+		"domain": "blog.scrapinghub.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123GJ0bdd2FaJC3vi5gwOlT7YDnYJ0Ar7b0vF1ZhfxHQOADg9fPziAxnkWA7VrWjbY0UYpg1167sN4116oVO9hmvk2iA117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "How to Crawl the Web Politely with Scrapy",
+		"url": "https://blog.scrapinghub.com/2016/08/25/how-to-crawl-the-web-politely-with-scrapy/",
+		"domain": "blog.scrapinghub.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xc1xF1166uy8erLGdIyk5HinO0gCH0QFi5GHzwiSkujZDthLEvj1EF4spc7UnKbnDb2jVCkwRQ5JWimJP2cqWwYw117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "I Dont Need No Stinking API  Web Scraping in 2016 and Beyond",
+		"url": "https://franciskim.co/2016/08/24/dont-need-no-stinking-api-web-scraping-2016-beyond/",
+		"domain": "franciskim.co",
+		"image": ""
+	},
+	{
+		"curated_id": "1165khLAUgFitHQbKeSoduTxkfqooQ05t116YFVUlpMfezzQohziCMV4jqNwN1uELLRM116i123ayeo6jGomkHP7uWb4sA117117",
+		"item_date": "2016-08-22 00:00:00",
+		"title": "Facebook Twitter Scraper For Business Search",
+		"url": "https://codecanyon.net/item/facebook-twitter-scraper-for-business/17526127",
+		"domain": "codecanyon.net",
+		"image": ""
+	},
+	{
+		"curated_id": "FJOjlGZdG91237312300FnJ3lUAylm9YUDu116UiOZD4UOIxCUlFBuWx8eF6iu2sYECoSTIYRALSHkWGQptQ9sYcNu8A117117",
+		"item_date": "2016-08-15 00:00:00",
+		"title": "LinkedIn sues anonymous data scrapers",
+		"url": "https://techcrunch.com/2016/08/15/linkedin-sues-scrapers/",
+		"domain": "techcrunch.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NC8Sa123B4Cd3DsEPlQKxr123kUu4VzC0ed8XQK4nV97538p0UPgPr94WgBvajBi7nUa3K95LbsuLR123ORkUJy9qizQ117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "LinkedIn Goes After Anonymous Data Scrapers",
+		"url": "http://www.pcmag.com/news/347041/linkedin-goes-after-anonymous-data-scrapers",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ERc38T7sd1nyCQqEpVnQpNag123cfH0IT5Alq7kcBzuDEK3HO1dpg4riwEYECloTF116Ced116zN5yLfsKM2cumA8fog117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Introducing Scrapy Cloud with Python 3 Support",
+		"url": "https://blog.scrapinghub.com/2016/08/17/introducing-scrapy-cloud-with-python-3-support/",
+		"domain": "blog.scrapinghub.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UJYJfNscWjvaMOLxUvOz2mBYU2UY123qCGDkoEEXGLJ7HCrcCSItqlqLyaPiPmpUYcNZMCjYlOSQXFGpUusuFvJw117117",
+		"item_date": "2016-08-08 00:00:00",
+		"title": "DeepCrawl",
+		"url": "http://www.programmableweb.com/api/deepcrawl",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WNsZDMvufY17123zCnKHNi9QqepyaKnXjIVj123VVUqlbw6Jkd8w2ko123cXQg94116lYSp07bLypYhQW0JXKQB7Q6mBkg117117",
+		"item_date": "2016-08-09 00:00:00",
+		"title": "July 2016 Crawl Archive Now Available",
+		"url": "http://commoncrawl.org/2016/08/july-2016-crawl-archive-now-available/",
+		"domain": "commoncrawl.org",
+		"image": ""
+	},
+	{
 		"curated_id": "slI116SDLs4Cb9QUsME3hAdSv9VdJUr116Uxn0R2jvkO8bAe1pyyoyewzV0Ic3tp55ysltPR3UI83123zzQu71QSprUg117117",
 		"item_date": "2016-08-04 00:00:00",
 		"title": "This Month in Open Source at Scrapinghub August 2016",
