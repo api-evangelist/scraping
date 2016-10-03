@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "gMcmRdu2FAwpknqn92lB123VjHf6oXxgCak116E6i1Mu5jJMO1xuDCArfB116mvD08XTzMwg9aWLVhyj98AwROtp8TLw117117",
+		"item_date": "2016-09-26 00:00:00",
+		"title": "Extraction and analysis of signatures from the Gene Expression Omnibus by the crowd",
+		"url": "http://www.nature.com/ncomms/2016/160926/ncomms12846/full/ncomms12846.html",
+		"domain": "www.nature.com",
+		"image": ""
+	},
+	{
+		"curated_id": "TPNdKtffSuJN53sEvJmPv32xBgkHXqR3JOE88jOZ8eoLOIFMIIbAgOgKQJAjT9SSlzYGcVyIeOL6ko7MWwj6VA117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "How to Run Python Scripts in Scrapy Cloud",
+		"url": "https://blog.scrapinghub.com/2016/09/28/how-to-run-python-scripts-in-scrapy-cloud/",
+		"domain": "blog.scrapinghub.com",
+		"image": ""
+	},
+	{
 		"curated_id": "mgvrs4JBDaMhZXJqT3n0PVyR1162iy0N6eZbbbrHWt50FD5UqkbZDGvZXWOBsV3SlYUbUnhjmoB8bny3r0xuaTOA117117",
 		"item_date": "2016-09-30 00:00:00",
 		"title": "Domain whois web scraping and more with Nodejs  MongoDB",
@@ -61,14 +77,6 @@
 		"title": "August 2016 Crawl Archive Now Available",
 		"url": "http://commoncrawl.org/2016/09/august-2016-crawl-archive-now-available/",
 		"domain": "commoncrawl.org",
-		"image": ""
-	},
-	{
-		"curated_id": "pp4qmp2enYOF9Hp9um1ljIb4Uo4vEwL5A4o3pyc9G4oE123116HTvz3b116Pf012327F116xhMy50vhSIeZr1BRRxQXXnvqg117117",
-		"item_date": "2016-09-09 00:00:00",
-		"title": "Datawatch Because scraping data from legacy reports is critically important",
-		"url": "https://ctovision.com/2016/09/datawatch-scraping-data-legacy-reports-critically-important/",
-		"domain": "ctovision.com",
 		"image": ""
 	},
 	{
@@ -141,14 +149,6 @@
 		"title": "Introducing Scrapy Cloud with Python 3 Support",
 		"url": "https://blog.scrapinghub.com/2016/08/17/introducing-scrapy-cloud-with-python-3-support/",
 		"domain": "blog.scrapinghub.com",
-		"image": ""
-	},
-	{
-		"curated_id": "UJYJfNscWjvaMOLxUvOz2mBYU2UY123qCGDkoEEXGLJ7HCrcCSItqlqLyaPiPmpUYcNZMCjYlOSQXFGpUusuFvJw117117",
-		"item_date": "2016-08-08 00:00:00",
-		"title": "DeepCrawl",
-		"url": "http://www.programmableweb.com/api/deepcrawl",
-		"domain": "www.programmableweb.com",
 		"image": ""
 	},
 	{
