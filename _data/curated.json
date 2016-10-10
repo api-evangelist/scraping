@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "Dk123uo2WDAgmKEXtHHCkiQ8VY0bgccc9JeOemIiYKILUtn1EfxOfLePuenNRxE2IwC6PrbQhh9YxI6IGS6cM0yQ117117",
+		"item_date": "2016-10-07 00:00:00",
+		"title": "September 2016 Crawl Archive Now Available",
+		"url": "http://commoncrawl.org/2016/10/september-2016-crawl-archive-now-available/",
+		"domain": "commoncrawl.org",
+		"image": ""
+	},
+	{
+		"curated_id": "KPkVbWJWsTq06k116NXicXZW123ze4puCa95Tr331K123lpZ2Ji8SLAnKzJoRTwwLAxI123116116Bh1161TCdVST1239116QTkDa116Aw117117",
+		"item_date": "2016-10-03 10:03:25",
+		"title": "Tweet Scrapy 12 is out with new features bug fixes and better docsCheck the release notes and upgrade httpstcoPh9IKLJN66",
+		"url": "https://twitter.com/ScrapyProject/statuses/782989444332781568",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yIxN123Wt5Jp9jvLRHT4PZZlHYPH116Xdx0qOPKyL53m290GaegyLYhG123K123ONux3ruTfmXblZw1bP123XMxgA3REFUng117117",
+		"item_date": "2016-10-04 07:03:06",
+		"title": "Tweet The architecture diagram was greatly improved in Scrapy 12 httpstco978svMNg3pMany thanks to lorenaelise and long live opensource",
+		"url": "https://twitter.com/ScrapyProject/statuses/783306455600472065",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
 		"curated_id": "gMcmRdu2FAwpknqn92lB123VjHf6oXxgCak116E6i1Mu5jJMO1xuDCArfB116mvD08XTzMwg9aWLVhyj98AwROtp8TLw117117",
 		"item_date": "2016-09-26 00:00:00",
 		"title": "Extraction and analysis of signatures from the Gene Expression Omnibus by the crowd",
