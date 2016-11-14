@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "2IRu01aN7W4EB2LbXw2wsRWb9XClrS2uP5qA8XrPCdqza9xV6bA1kNq97OChEDn6TdSTGS116QsK1230CuAC3cuO3A117117",
+		"item_date": "2016-11-07 00:00:00",
+		"title": "October 2016 Crawl Archive Now Available",
+		"url": "http://commoncrawl.org/2016/11/october-2016-crawl-archive-now-available/",
+		"domain": "commoncrawl.org",
+		"image": ""
+	},
+	{
 		"curated_id": "WsZfdK116sPBvgGG9fr1YdTBVGye116WLk116KZQ9e4U91nB28RMV9wf2dB4j116NayC0a7h7Qne6pzqE35NxgRD6srLYg117117",
 		"item_date": "2016-11-03 00:00:00",
 		"title": "A Fast Way to Scrape Image URLs from Webpages",
