@@ -1,601 +1,425 @@
-- slug: api-fortress
-  name: API Fortress
+- slug: embedly
+  name: Embedly
   description: >-
-    Test. Monitor. Automate: API Fortress is an enterprise cloud solution to
-    test, monitor, and automate the testing of APIs and web services. Create a
-    response validation test using our simple wizard, schedule the test to run
-    multiple times a day, and monitor the updates sent to your inbox.
-  url: 'http://apifortress.com'
+    Embedly provides a platform and suite of tools to make embedding and
+    previewing links simple. Embedly helps publishers and consumers manage embed
+    codes from more than 100 Websites and APIs, including YouTube, Flickr,
+    Ustream, Picassa, Hulu, Twitpic, Quantcast, and CrunchBase. It automatically
+    convert links from these sources into embedded media on the fly.
+  url: 'http://embed.ly/'
   short_url: ''
-  twitter: 'https://twitter.com/apifortress'
-  blog: 'http://apifortress.com/blog/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-fortress.png
-  tags: 'Testing,Monitoring'
-- slug: apibond.com
-  name: apibond.com
-  description: >-
-    APIBond is an API management platform that acts as a proxy where you can
-    validate, transform, secure, analyze and scale any existing API.
-  url: 'http://apibond.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/apibond'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond-logo.png
-  tags: 'Monitoring,Aggregation,Testing'
-- slug: apica
-  name: Apica
-  description: >-
-    Apica provides the most effective technology for optimizing the performance
-    of cloud and mobile applications. Apica offers companies and developers
-    alike easy-to-use, cloud-based load testing and web performance monitoring
-    tools to test applications for maximum capacity, daily performance, improved
-    load times, and protection from peak loads. For more information about how
-    Apica is providing the highest standard for cloud and mobile application
-    performance management.
-  url: 'https://www.apicasystem.com'
-  short_url: ''
-  twitter: 'https://twitter.com/apicasystems'
-  blog: 'https://www.apicasystem.com/blog/'
-  blog_rss: 'https://www.apicasystem.com/feed/'
-  github: 'https://github.com/ApicaSystem'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apica-logo.png
-  tags: 'Monitoring,Testing,Performance'
-- slug: apigee-api-studio
-  name: Apigee API Studio
-  description: >-
-    Apigee launched their API Studio out of their earlier Apigee-127 product,
-    their work on the Swagger platform and editor, and their BaaS offering. The
-    new studio opens up the ability for developers to design, mock, test and
-    share via their online open source based platform.
-  url: 'http://apistudio.io/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-studio-logo.png
-  tags: 'Design,Testing,Virtualization,Clients,Studio'
-- slug: apitest.io
-  name: APITest.IO
-  description: >-
-    apiTest.io is the new testing tool to test all your API requests, easy to
-    use with request and results saving. With our preconfigured API calls it is
-    easy to test some popular websites or your own HTTP(s), REST, SOAP, OAUTH
-    server.
-  url: 'https://www.apitest.io/'
-  short_url: ''
-  twitter: 'https://twitter.com/apitest_io'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-test-io-logo.png
-  tags: Testing
-- slug: apitools
-  name: APItools
-  description: >-
-    Building Apps that depend on APIs speeds up development and helps make
-    software all-round more awesome. However, tracking and managing traffic
-    flows to these APIs, reacting if they slow down or fail, dealing with
-    version changes and the like can add massive overhead to development and
-    operations.
-  url: 'https://www.apitools.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/apitools'
-  blog: 'http://docs.apitools.com/blog/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apitools-logo.png
-  tags: 'Testing,API Proxy'
-- slug: assertible
-  name: Assertible
-  description: >-
-    Gain confidence in crucial infrastructure by using Assertible's automated QA
-    tools to test and monitor your web services across deployments and
-    environments. Reduce bugs in web applications by using Assertible to create
-    an automated QA pipeline that helps you catch failures and ship code faster.
-  url: 'https://assertible.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/AssertibleApp'
-  blog: 'https://assertible.com/blog'
-  blog_rss: ''
-  github: 'https://github.com/assertible'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2017-04-27 at 1.26.20 PM.png
-  tags: Testing
-- slug: aws-xray
-  name: AWS X-Ray
-  description: >-
-    AWS X-Ray helps developers analyze and debug production, distributed
-    applications, such as those built using a microservices architecture. With
-    X-Ray, you can understand how your application and its underlying services
-    are performing to identify and troubleshoot the root cause of performance
-    issues and errors. X-Ray provides an end-to-end view of requests as they
-    travel through your application, and shows a map of your applications
-    underlying components. You can use X-Ray to analyze both applications in
-    development and in production, from simple three-tier applications to
-    complex microservices applications consisting of thousands of services.
-  url: 'https://aws.amazon.com/xray/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
-  tags: 'Amazon Web Services,Monitoring,Testing,Orchestration'
-- slug: azure-application-insights
-  name: Azure Application Insights
-  description: >-
-    Get rich performance monitoring, powerful alerting, and easy-to-consume
-    dashboards to help ensure your applications are available and performing as
-    you expect. Quickly see if you have a problem, how many customers are
-    affected, and perform a root cause analysis to find and fix the issue.
-  url: 'https://azure.microsoft.com/en-us/services/application-insights/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
-  tags: 'Microsoft,Monitoring,Testing,Diagnostics'
-- slug: azure-devtest-labs
-  name: Azure DevTest Labs
-  description: >-
-    Azure DevTest Labs makes it easy to quickly create environments to deploy
-    and test applications. Use reusable templates and artifacts to build Windows
-    and Linux environments while minimalizing waste and controlling costs.
-  url: 'https://azure.microsoft.com/en-us/services/devtest-lab/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
-  tags: 'Testing,Microsoft,Orchestration'
-- slug: bad-testing
-  name: BAD TESTING
-  description: "BAD TESTING offers software testing consulting services and helps you manage risks associated with technology changes. We offer\_an advanced and versatile skill set in software quality assurance, testing, and configuration to ensure effectively and on time product releases. We are experts at testing and evaluating both hardware and software products to identify and resolve all potential issues for both start ups or established environments."
-  url: 'http://www.badtesting.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/BadTesting'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bad-testing-logo.png
-  tags: 'Testing,Chicago,Blog'
-- slug: blazemeter
-  name: BlazeMeter
-  description: >-
-    BlazeMeter is a self-service, load testing platform (PaaS) for developers
-    providing an enterprise grade, out-of-the-box load testing solution. Start
-    testing in under five minutes. BlazeMeter significantly simplifies the load
-    testing process by providing developers easy integration into their native
-    development environment.
-  url: 'http://blazemeter.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/BlazeMeter'
-  blog: 'http://blazemeter.com/blog'
-  blog_rss: 'http://feedburner.google.com/fb/a/mailverify?uri=JmeterCloudBlog'
-  github: 'https://github.com/Blazemeter'
+  twitter: 'https://twitter.com/embedly'
+  blog: 'https://twitter.com/weogeostatus'
+  blog_rss: 'http://blog.embed.ly/rss'
+  github: 'https://github.com/embedly'
   image: ''
-  tags: 'Testing,Testing,Performance'
-- slug: bugbuster
-  name: BugBuster
+  tags: 'Videos,Social,Embed,Embeddable,Scraping,Scraping Tools'
+- slug: saplo
+  name: Saplo
   description: >-
-    BugBuster provides a full suite of functional testing tools. We make it easy
-    to build functional tests and automate the repetitive manual testing of your
-    site.
-  url: 'http://bugbuster.com/'
+    Saplo uses innovative semantic technologies to analyze text in a way that
+    mimic how humans read and evaluate text. Saplo help organisations extract
+    and refine valuable information hidden in large text collections. Saplo have
+    five different services; Entity Tagging, Topic Tags, Related &amp; Similar
+    Articles, Contextual recognition and Sentiment Analysis.
+  url: 'http://saplo.com'
   short_url: ''
-  twitter: 'https://twitter.com/BugBuster_Inc'
-  blog: 'http://blog.bugbuster.com/'
-  blog_rss: 'http://blog.bugbuster.com/feed/'
-  github: ''
+  twitter: 'https://twitter.com/saplo'
+  blog: 'http://saplo.com/blog/'
+  blog_rss: 'http://feeds.feedburner.com/saplo/'
+  github: 'https://github.com/saplo'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2039_logo.png
-  tags: 'Bug,Detection,Code,Testing'
-- slug: catch-software
-  name: Catch Software
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/469_logo.png
+  tags: 'Text Analysis,Content,Scraping,Machine Learning Scraping'
+- slug: textrazor
+  name: TextRazor
   description: >-
-    Catch Software makes test management software, execution and integration
-    tools that help QA professionals get more out of their testing effort. Our
-    flagship product, Enterprise Tester, is test management software which was
-    released in early 2009 and is built by QA professionals for QA
-    professionals, Enterprise Tester provides testers with easy management of
-    test plans, execution sets, requirements, and incidents.
-  url: 'http://catchsoftware.com/'
+    The service provides analysis of selected text passages to identify named
+    entities and statements of fact with disambiguation to distinguish similar
+    text strings. It applies machine learning algorithms and natural language
+    processing to connect a text sample with a knowledge base and identify known
+    elements and their relationships. API methods support submission of a text
+    sample to be parsed.&nbsp;
+  url: 'http://www.textrazor.com'
   short_url: ''
-  twitter: 'https://twitter.com/catchsoftware'
-  blog: 'http://catchsoftware.com/blogs/'
-  blog_rss: 'http://catchsoftware.com/blogs/feed/'
-  github: 'https://github.com/catch-software'
+  twitter: 'https://twitter.com/TextRazor'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/TextRazor'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/catch_logo.gif
-  tags: Testing
-- slug: crossbrowsertesting
-  name: CrossBrowserTesting
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/textrazor.gif
+  tags: 'Semantic,Target,Content,Machine Learning,Scraping,Machine Learning Scraping'
+- slug: apifier
+  name: Apifier
   description: >-
-    Test your website in dozens of browsers and real devices with instant
-    results. Over one thousand combinations of browsers, OSs, and devices. With
-    CrossBrowserTesting.com, you can test your sites on more than 1500 browsers
-    across more than 65 operating systems, including iOS, Android, Windows, Mac
-    and more.
-  url: 'http://crossbrowsertesting.com'
+    In late 2014, we needed a web scraper for one of our consulting projects,
+    but couldn't find anything suitable. Therefore we decided to build a better
+    scraper and it turned out people really liked it. Few months later, the
+    project was selected with 32 others from 6500 applications to the inaugural
+    Y Combinator Fellowship programme in August 2015. Apifier launched publicly
+    in October 2015.
+  url: 'https://www.apifier.com/'
   short_url: ''
-  twitter: 'https://twitter.com/xbrowsertesting'
-  blog: 'http://crossbrowsertesting.com/blog'
-  blog_rss: 'http://crossbrowsertesting.com/blog/feed'
-  github: ''
+  twitter: 'https://twitter.com/ApifierInfo'
+  blog: 'https://blog.apifier.com/'
+  blog_rss: 'https://blog.apifier.com/feed'
+  github: 'https://github.com/apifier'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cbt-logo.png
-  tags: 'Performance,Projects,Testing,Browser Testing'
-- slug: crosscheck-networks
-  name: Crosscheck Networks
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Apifier_logo_h120.png
+  tags: 'Scraping,Web Crawler,Scraping Web Crawler'
+- slug: scraperwiki
+  name: ScraperWiki
   description: >-
-    Crosscheck Networks is the global leader in API Testing, Simulation, and
-    Gateway technologies with product deployments in over 50,000 customer
-    networks worldwide. Comprehensive API testing includes functional
-    automation, performance, compliance and security testing with patented
-    dynamic mutation technology.
-  url: 'http://www.crosschecknet.com/'
+    ScraperWiki is a web-based platform for collaboratively building programs to
+    extract and analyze public (online) data, in a wiki-like fashion. Scraper
+    refers to screen scrapers, programs that extract data from websites. Wiki
+    means that any user with programming experience can create or edit such
+    programs for extracting new data, or for analyzing existing datasets. The
+    main use of the website is providing a place for programmers and journalists
+    to collaborate on analyzing public data
+  url: 'https://scraperwiki.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/scraperwiki'
+  blog: 'https://blog.scraperwiki.com/blog/'
+  blog_rss: 'https://blog.scraperwiki.com/feed/'
+  github: 'https://github.com/scraperwiki'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/798px-ScraperWiki_logo.png
+  tags: 'Scraping,Spreadsheets,Deployment'
+- slug: commoncrawl
+  name: CommonCrawl
+  description: >-
+    Common Crawl is a non-profit foundation dedicated to providing an open
+    repository of web crawl data that can be accessed and analyzed by everyone.
+    Common Crawl Foundation is a California 501(c)(3) registered non-profit
+    founded by Gil Elbaz with the goal of democratizing access to web
+    information by producing and maintaining an open repository of web crawl
+    data that is universally accessible and analyzable.
+  url: 'http://commoncrawl.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/CommonCrawl'
+  blog: 'http://commoncrawl.org/blog/'
+  blog_rss: 'http://commoncrawl.org/feed/'
+  github: 'https://github.com/commoncrawl'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/common-crawl-logo-2.png
+  tags: 'Scraping,Search,Scraping Web Crawler'
+- slug: scrapinghub
+  name: Scrapinghub
+  description: >-
+    Scrapinghub is a company that provides web crawling solutions, including a
+    platform for running crawlers, a tool for building scrapers visually, data
+    feed providers (DaaS) and a consulting team to help startups and enterprises
+    build and maintain their web crawling infrastructures.
+  url: 'http://scrapinghub.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/ScrapingHub'
+  blog: 'http://blog.scrapinghub.com/'
+  blog_rss: 'http://blog.scrapinghub.com/feed/'
+  github: 'https://github.com/scrapinghub'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/scrapinghub-logo.png
+  tags: 'Scraping,Scrapinging,Scraping Tools,Scraping Web Crawler'
+- slug: promptcloud
+  name: PromptCloud
+  description: >-
+    PromptCloud opeartes on &ldquo;Data as a Service&rdquo; (DaaS) model and
+    deals with large-scale data crawl and extraction, using cutting-edge
+    technologies and cloud computing solutions (Nutch, Hadoop, Lucene,
+    Cassandra, etc). Its proprietary software employs machine learning
+    techniques to extract meaningful information from the web in desired format.
+    These data could be from reviews, blogs, product catalogs, social sites,
+    travel data&mdash;basically anything and everything on WWW. It&rsquo;s a
+    customized solution over simply being a mass-data crawler, so you only get
+    the data you wish to see. The solution provides both deep crawl and refresh
+    crawl of the web pages in a structured format.
+  url: 'http://promptcloud.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/promptcloud'
+  blog: 'https://www.promptcloud.com/blog/'
+  blog_rss: 'https://www.promptcloud.com/feed/'
+  github: 'https://github.com/promptcloud'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/prompt-cloud-logo.png
+  tags: 'Scraping,Scraping,Scraping Web Crawler'
+- slug: convextra
+  name: ConvExtra
+  description: >-
+    Convextra allows you collect valuable data from internet and represents it
+    in easy-to-use CVS format for forther utilization.
+  url: 'http://convextra.com/'
   short_url: ''
   twitter: ''
-  blog: 'http://soa-testing.blogspot.com/'
-  blog_rss: 'http://feeds.feedburner.com/soatesting?format=xml'
+  blog: ''
+  blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cross-check-networks.png
-  tags: 'Testing,Security,Virtualization,API Gateways'
-- slug: cucumber
-  name: Cucumber
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/convextra-logo.png
+  tags: 'Scraping,Scraping,Scraping Tools'
+- slug: screen-scraper
+  name: Screen Scraper
   description: >-
-    Cucumber lets software development teams describe how software should behave
-    in plain text. The text is written in a business-readable domain-specific
-    language and serves as documentation, automated tests and development-aid -
-    all rolled into one format.
-  url: 'https://cucumber.io/'
+    Copying text from a web page. Clicking links. Entering data into forms and
+    submitting. Iterating through search results pages. Downloading files (PDF,
+    MS Word, images, etc.).
+  url: 'http://screen-scraper.com/'
   short_url: ''
   twitter: ''
-  blog: 'https://cucumber.io/blog'
-  blog_rss: 'https://cucumber.io/feed.xml'
-  github: 'https://github.com/cucumber'
+  blog: 'http://blog.screen-scraper.com/'
+  blog_rss: 'http://feeds.feedburner.com/screen-scrapeable'
+  github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cucumber.png
-  tags: Testing
-- slug: firebase
-  name: Firebase
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/screen-scraper-logo.png
+  tags: 'Scraping,Scraping,Scraping Tools'
+- slug: mozenda
+  name: Mozenda
   description: >-
-    Firebase is a mobile platform that helps you
-    quickly&nbsp;develop&nbsp;high-quality apps,&nbsp;grow&nbsp;your user base,
-    and&nbsp;earn&nbsp;more money. Firebase is made up of complementary features
-    that you can mix-and-match to fit your needs.
-  url: 'https://firebase.google.com/'
+    Web data extraction and mashups are easy with Mozenda. We're industry
+    leaders in screen scraping and data integration.
+  url: 'http://www.mozenda.com'
   short_url: ''
-  twitter: 'https://twitter.com/firebase'
-  blog: 'https://firebase.googleblog.com/'
-  blog_rss: 'http://firebase.googleblog.com/feeds/posts/default?alt=rss'
-  github: 'https://github.com/firebase'
+  twitter: 'http://www.twitter.com/mozenda'
+  blog: 'http://www.mozenda.com/blog/'
+  blog_rss: 'http://www.mozenda.com/blog/?feed=rss2'
+  github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mozenda-logo.png
+  tags: 'Scraping,Scraping Tools'
+- slug: hpe-haven-ondemand
+  name: HPE Haven OnDemand
+  description: >-
+    HPE Haven OnDemand is a platform for building cognitive computing solutions
+    using text analysis, speech recognition, image analysis, indexing and search
+    APIs. Simply put, developers and businesses use APIs to add advanced
+    capabilities such as natural language processing, machine learning, and
+    predictive analytics to their applications.
+  url: 'https://www.havenondemand.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/HavenOnDemand'
+  blog: 'https://community.havenondemand.com/t5/Blog/bg-p/blog_iod'
+  blog_rss: >-
+    https://community.havenondemand.com/etmmh37422/rss/boardmessages?board.id=blog_iod
+  github: 'https://github.com/HPE-Haven-OnDemand'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hpe-haven-on-demand.jpeg
+  tags: 'Scraping,Machine Learning,Machine Learning Scraping'
+- slug: aylien
+  name: Aylien
+  description: >-
+    AYLIEN Text Analysis API is a package of Natural Language Processing,
+    Information Retrieval and Machine Learning tools for extracting meaning and
+    insight from textual and visual content with ease. At AYLIEN, we&rsquo;re
+    harnessing the potential of your data. Whether you're a news organization, a
+    developer, a savvy marketer or an academic, you'll soon see what a dose of
+    AYLIEN intelligence can do for you. Our text API allows you to monitor the
+    sentiment of your brand, analyze documents or summarize and classify large
+    amounts of text.
+  url: 'http://aylien.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/_aylien'
+  blog: 'http://blog.aylien.com/'
+  blog_rss: 'http://blog.aylien.com/rss'
+  github: 'https://github.com/AYLIEN'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Full-transparent-background-512.png
   tags: >-
-    Real Time,API LIfeycle,Database,Command Line Interface,Links,Google
-    APIs,Security,Testing,Virtualization
-- slug: flood-io
-  name: Flood IO
+    Scraping,Machine Learning,Content,Machine Learning
+    Scraping,Reliability,Service Level Agreement
+- slug: scrapy
+  name: Scrapy
   description: >-
-    Flood enables you to generate load from any AWS region, using your own
-    account or ours to achieve the most realistic traffic scenarios. We collate
-    all the results for you, so you can spend more time testing. We sort out the
-    infrastructure, so you can spend more time testing. We've built a massive
-    distributed shared nothing infrastructure which lets you scale out on
-    demand. You'll enjoy much better economies of scale on Flood than you can on
-    our competitors.
-  url: 'https://flood.io/'
+    An open source and collaborative framework for extracting the data you need
+    from websites. In a fast, simple, yet extensible way. Scrapy is a fast
+    high-level screen scraping and web crawling framework, used to crawl
+    websites and extract structured data from their pages. It can be used for a
+    wide range of purposes, from data mining to monitoring and automated
+    testing.
+  url: 'http://scrapy.org/'
   short_url: ''
-  twitter: 'https://twitter.com/flood_io'
-  blog: 'https://blog.flood.io/'
-  blog_rss: 'https://blog.flood.io/rss/'
-  github: 'https://github.com/flood-io'
+  twitter: 'https://twitter.com/ScrapyProject'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/scrapy'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flood-io.png
-  tags: 'Testing,Performance'
-- slug: frisby.js
-  name: Frisby.js
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Scrapy_logo.jpg
+  tags: 'Scraping,Harvesting,Scraping Tools'
+- slug: parsehub
+  name: ParseHub
   description: >-
-    Frisby is a REST API testing framework built on node.js and Jasmine that
-    makes testing API endpoints easy, fast, and fun. Read below for a quick
-    overview, or check out the API documentation.
-  url: 'http://frisbyjs.com/'
+    Turn dynamic websites into APIs. You can extract data from anywhere.
+    ParseHub works with single-page apps, multi-page apps and just about any
+    other modern web technology. ParseHub can handle Javascript, AJAX, cookies,
+    sessions and redirects. You can easily fill in forms, loop through
+    dropdowns, login to websites, click on interactive maps and even deal with
+    infinite scrolling.
+  url: 'https://www.parsehub.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/parsehub'
+  blog: 'https://blog.parsehub.com/'
+  blog_rss: 'https://blog.parsehub.com/rss/'
+  github: 'https://github.com/parsehub'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/parsehub-logo.png
+  tags: 'Scraping,Deployment,Scraping Tools'
+- slug: wrapapi
+  name: WrapAPI
+  description: >-
+    Build an API on top of any website. Turn any website...into a parameterized
+    APIBuild, share, and use APIs made from webpages. Use WrapAPI to scrape
+    sites, build better UIs, and automate online tasks.
+  url: 'https://wrapapi.com'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/frisby-js.png
-  tags: Testing
-- slug: google-stackdriver
-  name: Google Stackdriver
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wrapapi-logo.png
+  tags: 'Scraping,Deployment,Scraping Tools'
+- slug: apache-nutch
+  name: Apache Nutch
   description: >-
-    Google Stackdriver provides powerful monitoring, logging, and diagnostics.
-    It equips you with insight into the health, performance, and availability of
-    cloud-powered applications, enabling you to find and fix issues faster. It
-    is natively integrated with Google Cloud Platform, Amazon Web Services, and
-    popular open source packages. Stackdriver provides a wide variety of
-    metrics, dashboards, alerting, log management, reporting, and tracing
-    capabilities.
-  url: 'https://cloud.google.com/stackdriver/'
+    Nutch is a well matured, production ready Web crawler. Nutch 1.x enables
+    fine grained configuration, relying on Apache Hadoop&trade; data structures,
+    which are great for batch processing. - See more at:
+    http://nutch.apache.org/index.html#sthash.dehuG4St.dpuf
+  url: ''
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-stackdriver-debugger.png
-  tags: 'Monitoring,Testing,Debugging,Google APIs,Logging'
-- slug: gtmetrix
-  name: GTmetrix
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-nutch.jpg
+  tags: Scraping
+- slug: dandelion-api
+  name: Dandelion API
   description: >-
-    GTmetrix can help you develop a faster, more efficient, and all-around
-    improved website experience for your users.  Studies show that users leave a
-    site if it hasn&#8217;t loaded in 4 seconds; keep your users happy and
-    engaged by providing a fast performing website!  GTmetrix uses Google Page
-    Speed and Yahoo! YSlow to grade your site&#8217;s performance and provides
-    actionable recommendations to fix these issues.  GTmetrix provides: full
-    video capture of how your site loads from multiple regions around the world,
-    performance monitoring and alerts for when your site dips below a given
-    threshold, easy to use API for integration with other sites, and much more!
-  url: 'http://gtmetrix.com'
+    Context Intelligence: from text to actionable data. Extract meaning from
+    unstructured text and put it in context with a simple API.Thanks to its
+    revolutionary technology, Dandelion API works well even on short and
+    malformed texts in English, French, German, Italian and Portuguese.
+  url: 'https://dandelion.eu'
   short_url: ''
-  twitter: 'https://twitter.com/gtmetrix'
-  blog: ''
-  blog_rss: 'http://gtmetrix.com/news.xml'
+  twitter: 'https://twitter.com/dandelionapi'
+  blog: 'http://blog.dandelion.eu/'
+  blog_rss: 'http://blog.dandelion.eu/feed/'
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/806_logo.png
-  tags: Performance Testing
-- slug: load-impact
-  name: Load Impact
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dandelion-api.png
+  tags: >-
+    Partners,Machine Learning,Machine Learning,Scraping,Machine Learning
+    Scraping
+- slug: moz
+  name: Moz
   description: >-
-    Load Impact is an online load testing service for websites, web apps, mobile
-    apps and APIs. The service allows users to run load tests over the Internet,
-    rather than having to set up their own load testing infrastructure to run
-    tests. Tests are easily repeatable, with minimum preparation required, which
-    also makes the service a good development/optimization tool.
-  url: 'https://loadimpact.com/'
+    Moz is a software as a service (SaaS) company based in Seattle, Washington,
+    U.S.A., that sells inbound marketing and marketing analytics software
+    subscriptions. It was founded by Rand Fishkin and Gillian Muessig in 2004 as
+    a consulting firm and shifted to software development in 2008. The company
+    hosts a website which includes an online community of more than one million
+    globally based digital marketers and marketing related tools.
+  url: 'https://moz.com'
   short_url: ''
-  twitter: 'https://twitter.com/loadimpact'
-  blog: 'http://blog.loadimpact.com/'
-  blog_rss: 'http://blog.loadimpact.com/rss.xml'
-  github: 'https://github.com/loadimpact'
+  twitter: 'https://twitter.com/moz'
+  blog: 'https://moz.com/blog'
+  blog_rss: 'http://feedpress.me/mozblog'
+  github: 'https://github.com/seomoz'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/load-impact-logo.png
-  tags: 'Testing,Performance'
-- slug: loader.io
-  name: Loader.io
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moz-logo.png
+  tags: 'Partners,Links,Target,Scraping,Web Crawler,Scraping Web Crawler'
+- slug: scrapelogo
+  name: ScrapeLogo
   description: >-
-    Loader.io is a free load testing service that allows you to stress test your
-    web-apps/apis with thousands of concurrent connections. We were born out of
-    SendGrid Labs which is a new and growing internal effort at SendGrid. Born
-    in late 2012, SendGrid Labs builds tools and services to help developers
-    focus on their core business. We aim to provide creative and innovative
-    solutions to common developer pain points, to make their lives easier, and
-    to help them scale.
-  url: 'https://loader.io/'
-  short_url: ''
-  twitter: 'https://twitter.com/loaderio'
-  blog: 'http://blog.loader.io/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/loader-io.png
-  tags: 'Testing,Performance'
-- slug: loadfocus
-  name: LoadFocus
-  description: >-
-    Load test with thousands of concurrent users. Monitor website uptime and
-    perfomance. Measure website speed and get insights. Run load tests in the
-    Cloud and stress your API with up to 50,000 concurrent users. Inspect
-    results to optimise and improve performance.
-  url: 'https://loadfocus.com/'
-  short_url: ''
-  twitter: ''
-  blog: 'http://loadfocus.com/blog/'
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/loadfocus.png
-  tags: 'Performance,Testing'
-- slug: parasoft
-  name: Parasoft
-  description: >-
-    Parasoft researches and develops software solutions that help organizations
-    deliver defect-free software efficiently. By integrating&nbsp;development
-    testing,&nbsp;API testing, and&nbsp;service virtualization, we reduce the
-    time, effort, and cost of delivering secure, reliable, and compliant
-    software. Parasoft's enterprise and embedded development solutions are the
-    industry's most comprehensive&mdash;including static analysis, unit testing,
-    requirements traceability, coverage analysis, functional and load testing,
-    dev/test environment management, and more.
-  url: 'http://www.parasoft.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/Parasoft'
-  blog: 'http://blog.parasoft.com/'
-  blog_rss: 'http://www.parasoft.com/rss/'
-  github: 'https://github.com/parasoft'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/parasoft-logo.png
-  tags: 'Testing,Virtualization'
-- slug: postman
-  name: Postman
-  description: >-
-    Postman on Chrome is the most efficient way to test, develop and document
-    APIs. Create complex requests, go back in time and view results in a
-    beautiful way. Postman has more than 80 features to help you at every
-    step.&nbsp;Our user base is growing rapidly and with more tools in the
-    pipeline, Postman aims to provide the most comprehensive API development and
-    testing solution to developers.
-  url: 'http://www.getpostman.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/postmanclient'
-  blog: 'http://blog.getpostman.com/'
-  blog_rss: 'http://blog.getpostman.com/index.php/feed/'
-  github: 'https://github.com/postmanlabs'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png
-  tags: 'Clients, Testing, Definitions'
-- slug: rest-united
-  name: REST United
-  description: >-
-    Our mission is to help REST API providers easily create SDKs in different
-    programming languages with easy-to-follow documentation and code samples
-    while software developers can effortlessly consume the REST API by following
-    the SDK installation instruction and using the code samples within minutes.
-  url: 'http://restunited.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/restunited'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rest-united.png
-  tags: 'Documentation,SDK,Testing,Debugging,API Management SDK'
-- slug: restcase
-  name: RestCase
-  description: >-
-    RestCase focuses on the REST API development cycle and enhances team
-    collaboration, reduces development time, improves testing and increases
-    overall product quality.
-  url: 'http://www.restcase.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/RestCaseApi'
-  blog: 'http://blog.restcase.com/'
-  blog_rss: 'http://blog.restcase.com/rss/'
-  github: 'https://github.com/restcase'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restcase_logo.png
-  tags: 'Virtualization,Testing'
-- slug: restlet-dhc
-  name: Restlet DHC
-  description: >-
-    Call APIs to discover and validate their behavior, build and run complete
-    test scenarios.&nbsp;Trying out an API to check its behavior usually
-    involves writing a program or sending command line instructions to call the
-    API
-  url: 'https://restlet.com/products/dhc/'
+    ScrapeLogo has been discovered and developed by Maintop Businesses,
+    originally only for internal purposes. It was coded as an independent
+    service for several Maintop&rsquo;s B2B projects. When requests from other
+    companies multiplied, a private beta version was launched too. We are now
+    looking for the first beta testers, who would like to show company logos on
+    their websites and help us improve the quality and precision of our
+    algorithm.
+  url: 'http://scrapelogo.com/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restlet-dhc-logo.jpg
-  tags: 'Clients,Testing'
-- slug: rightapi
-  name: RightAPI
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/scrape-logo.png
+  tags: 'Logo,Scraping,Scraping Tools'
+- slug: import.io
+  name: import.io
   description: >-
-    TheRightAPI is enabling the API community by providing solutions to make
-    working with APIs easier. If you need to discover, trust, monitor and manage
-    APIs, TheRightAPI is here to help. TheRightAPI provides the platform and
-    intelligence developers need to establish and maintain successful next
-    generation applications.
-  url: 'http://www.therightapi.com/'
+    Importio turns the web into a database, releasing the vast potential of data
+    trapped in websites. Allowing you to identify a website, select the data and
+    treat it as a table in your database. In effect transform the data into a
+    row and column format. You can then add more websites to your data set, the
+    same as adding more rows and query in real-time to access the data.
+  url: 'https://www.import.io/'
   short_url: ''
-  twitter: 'https://twitter.com/rightapi'
-  blog: 'http://blog.therightapi.com'
-  blog_rss: 'http://feeds.feedburner.com/rtur'
-  github: 'https://github.com/theRightAPI'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/therightapi-logo-2.png
-  tags: Testing
-- slug: runscope
-  name: Runscope
-  description: >-
-    Runscope was started with the idea that depending on a web service API in a
-    mobile or web application should be as easy as depending on code running
-    locally. We&rsquo;ve assembled a team of API, infrastructure and developer
-    experience experts to build tools to support the modern application
-    development lifecycle.
-  url: 'https://www.runscope.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/Runscope'
-  blog: 'http://blog.runscope.com/'
-  blog_rss: 'http://blog.runscope.com/posts?format=rss'
-  github: 'https://github.com/Runscope'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/runscope-logo.png
-  tags: 'My API Stack,Monitoring,Testing,Monitoring,Testing,API LIfeycle'
-- slug: smartbear-software
-  name: SmartBear Software
-  description: >-
-    SmartBear Software provides tools for over 100,000 software professionals to
-    build, test, and monitor some of the best software applications and websites
-    anywhere on the desktop, mobile and in the cloud.
-  url: 'http://smartbear.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/smartbear'
-  blog: 'http://blog.smartbear.com/'
-  blog_rss: 'http://feeds.feedburner.com/smartbear'
-  github: 'https://github.com/SmartBear'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
-  tags: 'Security,Testing,Monitoring,Virtualization,Performance,API LIfeycle'
-- slug: stoplight
-  name: StopLight
-  description: >-
-    StopLight provides engineering teams with a new way to document, test, and
-    build web APIs. Our technology easily and automatically maps an API, and
-    then provides tooling and services to reduce development time, and increase
-    reliability and accessibility.
-  url: 'http://stoplight.io/'
-  short_url: ''
-  twitter: 'https://twitter.com/stoplightio'
-  blog: 'http://blog.stoplight.io/'
-  blog_rss: 'http://blog.stoplight.io/rss/'
-  github: 'https://github.com/stoplightio'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stoplight-io-logo.png
-  tags: 'Testing,Clients,API LIfeycle,Proxy,Design,Studio'
-- slug: vrest
-  name: vREST
-  description: 'Simplify, Automate and Speed-up REST API Testing'
-  url: 'http://vrest.io/'
-  short_url: ''
-  twitter: ''
-  blog: ''
+  twitter: 'https://twitter.com/importio'
+  blog: 'http://blog.import.io/'
   blog_rss: ''
-  github: ''
+  github: 'https://github.com/import-io'
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vrsest-logo.png
-  tags: 'Testing,Virtualization'
-- slug: webpagetest
-  name: WebPagetest
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1728_logo.png
+  tags: 'Data,Scraping,API United Kingdom,Deployment'
+- slug: diffbot
+  name: Diffbot
   description: >-
-    WebPagetest is used for measuring and analyzing the performance of web
-    pages.  There are a lot of options that may seem intimidating at first but
-    doing quick testing is pretty simple.  This guide will walk you through
-    submitting a test and interpreting the results.
-  url: >-
-    https://sites.google.com/a/webpagetest.org/docs/advanced-features/webpagetest-restful-apis
+    &lt;p&gt;Diffbot provides a set of APIs that enable developers to easily use
+    web data in their own applications. Diffbot analyzes documents much like a
+    human would, using the visual properties to determine how the parts of the
+    page fit together. The algorithm uses statistical techniques to
+    automatically and reliably determine the structural organization of a page,
+    independent of layout and the language of the text.
+  url: 'http://www.diffbot.com/our-apis/follow/'
   short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
+  twitter: 'https://twitter.com/diffbot'
+  blog: 'http://blog.diffbot.com/'
+  blog_rss: 'http://blog.diffbot.com/feed/'
+  github: 'https://github.com/diffbot'
   image: >-
-    https://s3.amazonaws.com/kinlane-productions/webpagetest/webpagetest-logo.png
-  tags: 'Websites,Performance Testing'
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/diffbot-logo.jpg
+  tags: >-
+    Content,Extraction,Machine Learning,Crawler,Scraping,Machine Learning
+    Scraping,Deployment
+- slug: alchemyapi
+  name: AlchemyAPI
+  description: >-
+    The product of over 50 person years of engineering effort, AlchemyAPI is a
+    text mining platform providing the most comprehensive set of semantic
+    analysis capabilities in the natural language processing field. Used over 3
+    billion times every month, AlchemyAPI enables customers to perform
+    large-scale social media monitoring, target advertisements more effectively,
+    track influencers and sentiment within the media, automate content
+    aggregation and recommendation, make more accurate stock trading decisions,
+    enhance business and government intelligence systems, and create smarter
+    applications and services.
+  url: 'http://www.alchemyapi.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/alchemyapi'
+  blog: 'http://blog.alchemyapi.com/'
+  blog_rss: 'http://blog.alchemyapi.com/rss.xml'
+  github: 'https://github.com/AlchemyAPI'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/alchemy-api-logo.png
+  tags: >-
+    Content Analysis,Scraping,Semantic Analysis,My API
+    Stack,Content,Language,Machine Learning Scraping,Getting Started
+- slug: bitext
+  name: Bitext
+  description: >-
+    Bitext delivers the most precise and granular text analytics solution on the
+    market, with an accuracy rate above 90%. We are computational linguists
+    first. Our technology really understands sentence structure and its
+    different layers of meaning, so it always produces the richest results.
+  url: 'https://www.bitext.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/Bitext'
+  blog: 'https://www.bitext.com/blog/'
+  blog_rss: 'https://www.bitext.com/feed/'
+  github: 'https://github.com/bitext'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitext-logo-620px.png
+  tags: 'APIs.io Import,Machine Learning,Scraping,Content,Machine Learning Scraping'
