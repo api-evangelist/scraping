@@ -1,272 +1,4 @@
 ---
-- curated_id: aaab0a577bfd081d73f93ddc3200f7b7
-  item_date: "2012-12-21 00:00:00"
-  title: The next evolution of ScraperWiki
-  url: https://blog.scraperwiki.com/2012/12/the-next-evolution-of-scraperwiki/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: 5410753ed72265f4653d103133a0c78b
-  item_date: "2012-12-31 00:00:00"
-  title: A small matter of programming
-  url: https://blog.scraperwiki.com/2012/12/a-small-matter-of-programming/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: 283fea9aef8efed7b9e9bf4b40de76b4
-  item_date: "2013-03-11 10:35:33"
-  title: 'WordPress Titles: scraping with search url'
-  url: https://blog.scraperwiki.com/2013/03/wordpress-titles-scraping-with-search-url/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: 79264cd64db2a94585ee7efe18c14d6d
-  item_date: "2013-03-14 00:00:00"
-  title: Tools of the trade
-  url: https://blog.scraperwiki.com/2013/03/tools-of-the-trade/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: 87c85e48f6e02a5836965ca51c5e8ce3
-  item_date: "2013-05-06 00:00:00"
-  title: Mixing Up Great Data Without the Hassle of Scraping
-  url: https://developer.yahoo.com/blogs/ydn/mixing-great-data-without-hassle-scraping-065032245.html
-  domain: developer.yahoo.com
-  image: ""
-- curated_id: b229d284a413af92ac77b494077fe954
-  item_date: "2013-05-10 00:00:00"
-  title: ScraperWiki lets anyone scrape Twitter data without coding
-  url: https://gigaom.com/2013/05/10/scraperwiki-lets-anyone-scrape-twitter-data-without-coding/
-  domain: gigaom.com
-  image: ""
-- curated_id: 51e1c473f201a7388e4801647e1c2d82
-  item_date: "2013-06-06 00:00:00"
-  title: White House Civic Hackathon Uses AlchemyAPI
-  url: http://blog.alchemyapi.com/white-house-civic-hackathon-alchemyapi
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 850c37fe10421c3fda499940dce2f575
-  item_date: "2013-06-07 00:00:00"
-  title: 'API Mashup Uses Text Categorization: Article Optimizer '
-  url: http://blog.alchemyapi.com/helping-writers-write-better-with-text-categorization
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 5bbb0dd78f162e2881a19fa0cfa138e5
-  item_date: "2013-06-17 00:00:00"
-  title: Get Started With Scraping ? Extracting Simple Tables from PDF Documents
-  url: http://schoolofdata.org/2013/06/18/get-started-with-scraping-extracting-simple-tables-from-pdf-documents/
-  domain: schoolofdata.org
-  image: ""
-- curated_id: a415c36fa0f3a82665977aad7622d66f
-  item_date: "2013-07-03 00:00:00"
-  title: 'TrovesNewsBot: Mining Digital Treasures'
-  url: http://blog.alchemyapi.com/trovesnewsbot-mining-digital-treasures
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 4cbafcf63037c70b236e177f452a8dbd
-  item_date: "2013-07-03 00:00:00"
-  title: Announcing the new ScraperWiki.com
-  url: https://blog.scraperwiki.com/2013/07/announcing-the-new-scraperwiki-com/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: e5d3ee88650d114fdd0362a410b3e8f6
-  item_date: "2013-07-05 00:00:00"
-  title: Data analysis using the Query with SQL tool
-  url: https://blog.scraperwiki.com/2013/07/data-analysis-using-the-query-with-sql-tool/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: b7aea3ffb987ae3be7b89a01353a4f2e
-  item_date: "2013-07-09 00:00:00"
-  title: Announcing Improvements to Named Entity Recognition and Relation Extraction
-    Systems
-  url: http://blog.alchemyapi.com/improvements-entity-recognition-relation-extraction
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: f617dbcf1839632a5b95755f76bf9c7e
-  item_date: "2013-07-11 00:00:00"
-  title: Open your data with ScraperWiki
-  url: https://blog.scraperwiki.com/2013/07/open-your-data-with-scraperwiki/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: f94b55954c98f7677ad9db9ffebe091a
-  item_date: "2013-08-14 00:00:00"
-  title: Exploring Stack Exchange Open Data
-  url: https://blog.scraperwiki.com/2013/08/exploring-stack-exchange-open-data/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: ab5e2670a9d99f0ebf4b16e3ee94b591
-  item_date: "2013-08-16 00:00:00"
-  title: Pandacodium! Online Hackathon launches tonight!
-  url: http://blog.alchemyapi.com/pandacodium-online-hackathon-launches-tonight
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: e2d8778c8908686e82deadd0d9fdce96
-  item_date: "2013-08-16 00:00:00"
-  title: Scraping PDFs with Python and the scraperwiki module
-  url: http://schoolofdata.org/2013/08/16/scraping-pdfs-with-python-and-the-scraperwiki-module/
-  domain: schoolofdata.org
-  image: ""
-- curated_id: 351940a352f283ecbeb4fa6363db1fb1
-  item_date: "2013-08-23 00:00:00"
-  title: 8 Things You Should Know About AlchemyAPI
-  url: http://blog.alchemyapi.com/9-things-you-should-know-about-alchemyapi
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 0f66f579bdfb990b12dd73bfc6f1fafc
-  item_date: "2013-10-11 00:00:00"
-  title: tabbr - Powerful Chrome Tab Management Powered by AlchemyAPI
-  url: http://blog.alchemyapi.com/tabbr-powerful-chrome-tab-management-powered-by-alchemyapi
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 7ed58b7222816498a8f2861970e14bcf
-  item_date: "2013-11-04 00:00:00"
-  title: GigaOM Deep Learning Overview Features AlchemyAPI
-  url: http://blog.alchemyapi.com/gigaom-deep-learning-overview-features-alchemyapi
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: f172609d86eebf77c274bddc4d68c9a1
-  item_date: "2013-11-21 00:00:00"
-  title: Tracking Aquatic Animal Health Around the World - With AlchemyAPI
-  url: http://blog.alchemyapi.com/tracking-aquatic-animal-health-around-the-world-with-natural-language-processing
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 0fd05f34c7ad1a6fc79e1573ee4e6c34
-  item_date: "2013-12-04 00:00:00"
-  title: AlchemyAPI Releases Four New Getting Started Guides
-  url: http://blog.alchemyapi.com
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 0cdf27f3c0a6a15451abaa678b018708
-  item_date: "2013-12-09 00:00:00"
-  title: AlchemyAPI Releases Solution Page and Developer Tutorial for Social Media
-    Monitoring
-  url: http://blog.alchemyapi.com/social-media-monitoring-developer-tutorial
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 740a9806d846baf83059419c01655043
-  item_date: "2013-12-19 12:37:05"
-  title: A Practical Exercise in Web Scraping
-  url: https://www.petekeen.net/a-practical-exercise-in-web-scraping
-  domain: www.petekeen.net
-  image: ""
-- curated_id: 5c134e4dccb79e59688423884eee8038
-  item_date: "2013-12-20 00:08:53"
-  title: Can Developers use APIs and Data Tools like Import.io to Create Commercial
-    Products?
-  url: http://www.programmableweb.com/news/can-developers-use-apis-and-data-tools-import.io-to-create-commercial-products/2013/12/19
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: 9667af49dd5afaa7f5a1093a2806a48a
-  item_date: "2014-06-11 00:00:00"
-  title: Using Kimono Labs to Scrape the Web for Free
-  url: https://moz.com/blog/web-scraping-with-kimono-labs
-  domain: moz.com
-  image: ""
-- curated_id: 0e3c330bc7b3b40c16b814b12e727f52
-  item_date: "2014-06-13 00:00:00"
-  title: 'An open world cup API and a #builtwithkimono gallery'
-  url: http://blog.kimonolabs.com/2014/06/13/an-open-world-cup-api-and-a-builtwithkimono-gallery/
-  domain: blog.kimonolabs.com
-  image: ""
-- curated_id: f5f6177912a80873aa07ace437995782
-  item_date: "2014-06-13 18:14:30"
-  title: 'kimono : World Cup API Explorer'
-  url: http://www.kimonolabs.com/worldcup/explorer
-  domain: www.kimonolabs.com
-  image: ""
-- curated_id: d9ff5ad6b38e0815b0316580745eed35
-  item_date: "2014-06-18 00:00:00"
-  title: Extracting schema.org microdata using Scrapy selectors and XPath
-  url: https://blog.scrapinghub.com/2014/06/18/extracting-schema-org-microdata-using-scrapy-selectors-and-xpath/
-  domain: blog.scrapinghub.com
-  image: ""
-- curated_id: 725ffd6970d31342e0d56c0d8859b313
-  item_date: "2014-06-26 00:00:00"
-  title: Introducing Auth APIs to get data behind logins
-  url: http://blog.kimonolabs.com/2014/06/27/introducing-auth-apis-to-get-data-behind-logins/
-  domain: blog.kimonolabs.com
-  image: ""
-- curated_id: 30e636c63f73c0ec7e9138dff1c4a01f
-  item_date: "2014-06-27 16:06:36"
-  title: World Cup |WebKite
-  url: http://webkite.com/
-  domain: webkite.com
-  image: ""
-- curated_id: 1d6a71b910f67daab0bf30d887986c66
-  item_date: "2014-07-17 00:00:00"
-  title: Using Orchestrate?s Graph Search with the Enron Emails
-  url: https://www.ctl.io/developers/blog/post/using-orchestrates-graph-search-with-the-enron-emails
-  domain: www.ctl.io
-  image: ""
-- curated_id: f48ddedefd179bc9ab9d6495abed29e6
-  item_date: "2014-07-17 00:00:00"
-  title: 'kimono tip: use targeted crawling to collect data across webpages'
-  url: http://blog.kimonolabs.com/2014/07/17/kimono-tip-use-targeted-crawling-to-collect-data-across-webpages/
-  domain: blog.kimonolabs.com
-  image: ""
-- curated_id: 5c8591ec1c0e2a5a4c493e8918a4609c
-  item_date: "2014-07-19 14:14:06"
-  title: ~12,000 URLs needed to scrape all filings from FCC Docket No. 14-28
-  url: https://gist.github.com/adelevie/53be851da3e88cf7a8b3
-  domain: gist.github.com
-  image: ""
-- curated_id: bc1335d4d2d49ad78bfed627d965688a
-  item_date: "2014-07-21 00:00:00"
-  title: '#FlashHacks: the start of a crowdscraping movement'
-  url: https://blog.opencorporates.com/2014/07/21/flashhacks-the-start-of-a-crowdscraping-movement/
-  domain: blog.opencorporates.com
-  image: ""
-- curated_id: 9d2c27f6e39a72fc6cc4c054f8e80328
-  item_date: "2014-07-31 00:00:00"
-  title: Use kimono APIs directly from Google spreadsheets
-  url: http://blog.kimonolabs.com/2014/08/01/use-kimono-apis-directly-from-google-spreadsheets/
-  domain: blog.kimonolabs.com
-  image: ""
-- curated_id: ed77e02111996f528bb8d0e4d7c10ddb
-  item_date: "2014-08-12 09:05:04"
-  title: 'Review: KimonoLabs Lets Users Quickly Turn Website Content into APIs | ProgrammableWeb'
-  url: http://www.programmableweb.com/news/review-kimonolabs-lets-users-quickly-turn-website-content-apis/review/2014/08/11
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: 92211ba1e080f12af558b58934726c3f
-  item_date: "2014-08-12 22:55:35"
-  title: Crawling is the new API - a legal and technical rough guide for the travel
-    industry
-  url: https://www.tnooz.com/article/API-new-crawling-legal-technical-guide/
-  domain: www.tnooz.com
-  image: ""
-- curated_id: 41fe3252492edf3102fd26056eb80c84
-  item_date: "2014-08-13 00:00:00"
-  title: Smarter Marketing Research
-  url: http://blog.alchemyapi.com/smarter-marketing-research-natural-language-processing
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 09bf4b3df4bf30aa3aa3ba846b6b7630
-  item_date: "2014-08-14 01:07:11"
-  title: Caching ? scrapekit 0.1 documentation
-  url: http://scrapekit.readthedocs.io/en/latest/cache.html
-  domain: scrapekit.readthedocs.io
-  image: ""
-- curated_id: 5539ae59517dc84eef3eca7f2fdbec93
-  item_date: "2014-08-22 00:00:00"
-  title: GeoJSON into ScraperWiki will go!
-  url: https://blog.scraperwiki.com/2014/08/geojson-into-scraperwiki-will-go/
-  domain: blog.scraperwiki.com
-  image: ""
-- curated_id: 56197c701505e268968fd256ae199a68
-  item_date: "2014-08-22 00:00:00"
-  title: Introducing API search and sharing features
-  url: http://blog.kimonolabs.com/2014/08/22/introducing-api-search-and-sharing-features/
-  domain: blog.kimonolabs.com
-  image: ""
-- curated_id: e276b2dec13c93dfc97a7be0044fd728
-  item_date: "2014-09-25 00:00:00"
-  title: AlchemyVision Face Detection and Recognition API Released Today
-  url: http://blog.alchemyapi.com/alchemyvision-face-detection-recognition-api-released
-  domain: blog.alchemyapi.com
-  image: ""
-- curated_id: 96a101d33f026f292cb5d9d8fd904c24
-  item_date: "2014-11-03 00:00:00"
-  title: ""
-  url: http://www.mashup.se/nyheter/api-mandag-2014-11-03
-  domain: www.mashup.se
-  image: ""
 - curated_id: effc806d94c14c2faedb386bd6043446
   item_date: "2015-01-22 00:00:00"
   title: New Changes to Our Scrapy Cloud Platform
@@ -450,17 +182,17 @@
   url: https://blog.scraperwiki.com/2015/06/pdftables-all-the-tables-in-one-page-csv/
   domain: blog.scraperwiki.com
   image: ""
-- curated_id: 26da099d3219ce66eb487172749a220c
-  item_date: "2015-08-11 00:00:00"
-  title: Fragments ? Scraping Tabular Data from PDFs
-  url: http://blog.ouseful.info/2015/08/11/fragments-scraping-tabula-data-from-pdfs/
-  domain: blog.ouseful.info
-  image: ""
 - curated_id: bc98fc4299b7c454c14770e3f6424ca9
   item_date: "2015-08-11 00:00:00"
   title: The four kinds of data PDF
   url: https://blog.scraperwiki.com/2015/08/the-four-kinds-of-data-pdf/
   domain: blog.scraperwiki.com
+  image: ""
+- curated_id: 26da099d3219ce66eb487172749a220c
+  item_date: "2015-08-11 00:00:00"
+  title: Fragments ? Scraping Tabular Data from PDFs
+  url: http://blog.ouseful.info/2015/08/11/fragments-scraping-tabula-data-from-pdfs/
+  domain: blog.ouseful.info
   image: ""
 - curated_id: 548ae6ad2d74bafd602c36483628313f
   item_date: "2015-08-28 00:00:00"
@@ -480,17 +212,17 @@
   url: http://blogs.loc.gov/digitalpreservation/2015/12/acquiring-at-digital-scale-harvesting-the-storycorps-me-collection/
   domain: blogs.loc.gov
   image: ""
-- curated_id: 35c8edcf8fbdc554f783532512bd6d73
-  item_date: "2015-12-13 00:00:00"
-  title: Finding Common Phrases or Sentences Across Different Documents
-  url: http://blog.ouseful.info/2015/12/13/finding-common-phrases-or-sentences-across-different-documents/
-  domain: blog.ouseful.info
-  image: ""
 - curated_id: 58dd1d0a75856d623dad8cf2ce4942d6
   item_date: "2015-12-13 00:00:00"
   title: 'Create Your Own Web Scraper Using node.js and Get Data in JSON Format '
   url: http://www.codeproject.com/Tips/1062106/Create-Your-Own-Web-Scraper-Using-node-js-and-Get
   domain: www.codeproject.com
+  image: ""
+- curated_id: 35c8edcf8fbdc554f783532512bd6d73
+  item_date: "2015-12-13 00:00:00"
+  title: Finding Common Phrases or Sentences Across Different Documents
+  url: http://blog.ouseful.info/2015/12/13/finding-common-phrases-or-sentences-across-different-documents/
+  domain: blog.ouseful.info
   image: ""
 - curated_id: 24331f7ab7e85ada69e5d19855f4b94d
   item_date: "2016-01-05 11:32:50"
@@ -612,17 +344,17 @@
   url: https://wrapapi.com/
   domain: wrapapi.com
   image: ""
-- curated_id: d5385ab762af89ae1ef11db76771bc93
-  item_date: "2016-04-06 00:00:00"
-  title: Instapaper launches Instaparser API
-  url: http://blog.instapaper.com/post/142296652536
-  domain: blog.instapaper.com
-  image: ""
 - curated_id: c5c9e950fed5c38c1726ef33cd338214
   item_date: "2016-04-06 00:00:00"
   title: Mapping Corruption in the Panama Papers with Open Data
   url: https://blog.scrapinghub.com/2016/04/06/how-to-become-a-whistleblower-from-panama-papers-to-open-data/
   domain: blog.scrapinghub.com
+  image: ""
+- curated_id: d5385ab762af89ae1ef11db76771bc93
+  item_date: "2016-04-06 00:00:00"
+  title: Instapaper launches Instaparser API
+  url: http://blog.instapaper.com/post/142296652536
+  domain: blog.instapaper.com
   image: ""
 - curated_id: ddd98c8694b34852e015b1b33aa00755
   item_date: "2016-04-07 00:00:00"
@@ -757,17 +489,17 @@
   url: https://learn-powershell.net/2016/07/14/scraping-the-web-for-water-levels-using-powershell/
   domain: learn-powershell.net
   image: ""
-- curated_id: b1b8829cb34ada500f3fcdee21b6a3bc
-  item_date: "2016-07-15 00:00:00"
-  title: Capybara and Selenium for Testing and Scraping
-  url: https://dzone.com/articles/capybara-and-selenium-for-testing-and-scraping
-  domain: dzone.com
-  image: ""
 - curated_id: 10fdb73c11c293fbe19b9df40574334f
   item_date: "2016-07-15 00:00:00"
   title: ParseHub vs. Scrapy Comparison ? which alternative is better for web scraping?
   url: https://blog.parsehub.com/parsehub-vs-scrapy-comparison-which-alternative-is-better-for-web-scraping/
   domain: blog.parsehub.com
+  image: ""
+- curated_id: b1b8829cb34ada500f3fcdee21b6a3bc
+  item_date: "2016-07-15 00:00:00"
+  title: Capybara and Selenium for Testing and Scraping
+  url: https://dzone.com/articles/capybara-and-selenium-for-testing-and-scraping
+  domain: dzone.com
   image: ""
 - curated_id: 6d0a01b8d70b7738cb48667bdc5ce695
   item_date: "2016-07-20 00:00:00"
@@ -956,5 +688,73 @@
   title: October 2016 Crawl Archive Now Available
   url: http://commoncrawl.org/2016/11/october-2016-crawl-archive-now-available/
   domain: commoncrawl.org
+  image: ""
+- curated_id: cce37e3c76351faadbf74de8ecb5568f
+  item_date: "2016-12-30 00:00:00"
+  title: Building a Sentiment Analysis Pipeline for Web Scraping
+  url: http://blog.algorithmia.com/sentiment-analysis-pipeline-for-web-scraping/
+  domain: blog.algorithmia.com
+  image: ""
+- curated_id: e53d1f9570ad5883fac0faf1370c132e
+  item_date: "2017-01-05 22:28:35"
+  title: 'Netflix/sketchy: A task based API for taking screenshots and scraping text
+    from websites.'
+  url: https://github.com/Netflix/sketchy
+  domain: github.com
+  image: ""
+- curated_id: 8f377e62ee40e63fcec0e8f3723df106
+  item_date: "2017-01-31 00:00:00"
+  title: Facebook User Data Scraping From Posts (Social Networking)
+  url: https://codecanyon.net/item/facebook-user-data-scraping-from-posts/19377338
+  domain: codecanyon.net
+  image: ""
+- curated_id: bb1aa276dc0650c6b8fbe9694843353c
+  item_date: "2017-02-11 00:00:00"
+  title: Block Web Crawlers With Rails
+  url: https://dzone.com/articles/block-web-crawlers-with-rails
+  domain: dzone.com
+  image: ""
+- curated_id: d03190de08717cb71ffa48f4c09f32f3
+  item_date: "2017-03-03 00:00:00"
+  title: 'FutureTDM: The Future of Text and Data Mining'
+  url: https://blog.okfn.org/2017/03/03/futuretdm-the-future-of-text-and-data-mining/
+  domain: blog.okfn.org
+  image: ""
+- curated_id: 95b9cd8ac3a42954513f9650fb808f5e
+  item_date: "2017-03-08 00:00:00"
+  title: 'Banks, consumer groups agree: Screen scraping needs better regs'
+  url: https://www.americanbanker.com/news/banks-consumer-groups-agree-screen-scraping-needs-better-regs
+  domain: www.americanbanker.com
+  image: ""
+- curated_id: 862366043a85e1335f6c3009213e29d6
+  item_date: "2017-04-04 00:00:00"
+  title: 'OG-Miner : Data Crawling on Steroids.'
+  url: https://umbrella.cisco.com/blog/2017/04/04/og-miner-data-crawling-steroids/
+  domain: umbrella.cisco.com
+  image: ""
+- curated_id: 77e33a6041db3bcb117a368b713fa179
+  item_date: "2017-04-28 00:00:00"
+  title: Someone scraped 40,000 Tinder selfies to make a facial dataset for AI experiments
+  url: https://techcrunch.com/2017/04/28/someone-scraped-40000-tinder-selfies-to-make-a-facial-dataset-for-ai-experiments/
+  domain: techcrunch.com
+  image: ""
+- curated_id: 79593d9b6d0b54af62387d3ae1e855cc
+  item_date: "2017-04-30 00:00:00"
+  title: Massive Tinder Photo Grab Is Latest Scary Warning To Be Careful What You
+    Post
+  url: http://www.huffingtonpost.com/entry/40000-photo-tinder-sweep_us_59052818e4b0bb2d086f0335
+  domain: www.huffingtonpost.com
+  image: ""
+- curated_id: f5bfe910462acd82c132e6f70e8e1a45
+  item_date: "2017-05-02 00:00:00"
+  title: 40,000 Tinder Pics Scraped Into Big Data Service
+  url: http://www.itsecurityguru.org/2017/05/02/40000-tinder-pics-scraped-big-data-service/
+  domain: www.itsecurityguru.org
+  image: ""
+- curated_id: 2c50c1e1271d1017c7645c8d2b0808dc
+  item_date: "2017-05-08 00:00:00"
+  title: Fintechs fight plan to bar screen scraping and protect European banks
+  url: http://www.cnbc.com/2017/05/08/fintechs-fight-plan-to-bar-screen-scraping-and-protect-european-banks.html
+  domain: www.cnbc.com
   image: ""
 ...
