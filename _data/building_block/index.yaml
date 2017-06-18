@@ -1,0 +1,36 @@
+---
+- buildingblockid: semantic-text-analysis
+  type: Scraping
+  category: Machine Learning
+  name: Semantic Text Analysis
+  description: Relating syntactic structures, from text to the level of the writing
+    as a whole, to their language-independent meanings.
+  image: ""
+  tags: Machine Learning Scraping
+- buildingblockid: semantic-similarity
+  type: Scraping
+  category: Machine Learning
+  name: Semantic Similarity
+  description: Look for the similarities that exist after relating syntactic structures
+    in content to the level of the writing as a whole, to their language-independent
+    meanings.
+  image: ""
+  tags: Machine Learning Scraping
+- buildingblockid: sentiment-analysis
+  type: Scraping
+  category: Machine Learning
+  name: Sentiment Analysis
+  description: Identify and categorize opinions expressed in content to interpret
+    it's attitude towards a particular topic, product, etc., is positive, negative,
+    or neutral.
+  image: ""
+  tags: Machine Learning Scraping
+- buildingblockid: emotion-analysis
+  type: Scraping
+  category: Machine Learning
+  name: Emotion Analysis
+  description: Evaluating content for signs of human emotion presence such as sad
+    or happy, complimenting and augmenting sentiment analysis.
+  image: ""
+  tags: Machine Learning Scraping
+...
