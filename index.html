@@ -107,12 +107,12 @@ title: API Evangelist - Scraping
 		{% assign organizations = site.data.organizations.index %}
     {% for organization in organizations %}
 			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.image }}" width="175" align="center" /></a></p>
+				<p><a href="{{ organization.website }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.logo }}" width="175" align="center" valign="top" /></a></p>
 				<div class="content">
-					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
-					<p>{{ organization.description }}</p>
+					<h3><a href="{{ organization.website }}" target="_blank">{{ organization.name }}</a></h3>
+					<p>{{ organization.details }}</p>
 					<ul class="icons">
-						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+						<li><a href="{{ organization.website}}" class="icon fa-home"><span class="label">Home</span></a></li>
 						{% if organization.twitter != '' %}
 						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						{% endif %}
@@ -120,7 +120,7 @@ title: API Evangelist - Scraping
 						<li><a href="{{ organization.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
 						{% endif %}
 						{% if organization.blog_rss != '' %}
-						<li><a href="{{ organization.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+						<li><a href="{{ organization.blogrss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
 						{% endif %}
 						{% if organization.github != '' %}
 						<li><a href="{{ organization.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
@@ -129,9 +129,6 @@ title: API Evangelist - Scraping
 				</div>
 			</article>
     {% endfor %}
-		<ul class="actions" style="text-align: center;">
-			<li><a href="/organizations/" class="button big">See All Organizations</a></li>
-		</ul>
 		<p>{{ organization_content.footer }}</p>
 	</div>
 </section>
