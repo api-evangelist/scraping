@@ -322,11 +322,11 @@
     competitive pricing, market sentiment, and other forms of analysis.
   website: https://www.diggernaut.com
   twitter: https://twitter.com/diggernautcom
-  github: ~
+  github: https://github.com/diggernaut
   blog: https://www.diggernaut.com/blog/
-  blogrss: ~
+  blogrss: ""
   logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28731-www-diggernaut-com.jpg
-  logo_width: ~
+  logo_width: "150"
   screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28731-www-diggernaut-com.jpg
   tags: Enterprise,SaaS,Scraping
   apis: []
