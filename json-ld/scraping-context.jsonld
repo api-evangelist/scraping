@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "scr": "https://api-evangelist.github.io/scraping/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "ScrapeJob": "scr:ScrapeJob",
+    "ScrapeResult": "scr:ScrapeResult",
+    "ProxyPool": "scr:ProxyPool",
+    "SerpResult": "scr:SerpResult",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "provider": "schema:provider",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "endpoint": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "result_url": {
+      "@id": "dcat:downloadURL",
+      "@type": "@id"
+    },
+    "method": {
+      "@id": "scr:method",
+      "@type": "xsd:string"
+    },
+    "render_js": {
+      "@id": "scr:render_js",
+      "@type": "xsd:boolean"
+    },
+    "country": {
+      "@id": "schema:addressCountry",
+      "@type": "xsd:string"
+    },
+    "countries": {
+      "@id": "schema:addressCountry",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "proxy_type": {
+      "@id": "scr:proxy_type",
+      "@type": "xsd:string"
+    },
+    "rotation": {
+      "@id": "scr:rotation",
+      "@type": "xsd:string"
+    },
+    "sticky_session_ttl_seconds": {
+      "@id": "scr:sticky_session_ttl_seconds",
+      "@type": "xsd:integer"
+    },
+    "pool_size": {
+      "@id": "scr:pool_size",
+      "@type": "xsd:integer"
+    },
+    "status": {
+      "@id": "scr:status",
+      "@type": "xsd:string"
+    },
+    "status_code": {
+      "@id": "scr:status_code",
+      "@type": "xsd:integer"
+    },
+    "wait_for_selector": {
+      "@id": "scr:wait_for_selector",
+      "@type": "xsd:string"
+    },
+    "extract": {
+      "@id": "scr:extract"
+    },
+    "protocols": {
+      "@id": "scr:protocols",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "pricing_model": {
+      "@id": "scr:pricing_model",
+      "@type": "xsd:string"
+    },
+    "authentication": {
+      "@id": "scr:authentication"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "completed_at": {
+      "@id": "dcterms:date",
+      "@type": "xsd:dateTime"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

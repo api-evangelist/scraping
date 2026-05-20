@@ -1,0 +1,140 @@
+aid: scraping
+name: Scraping
+description: >-
+  An index and topic collection covering web scraping platforms, proxy networks, SERP APIs, browser-based extraction services, and data collection APIs. Scraping platforms turn the public web into structured
+  data by combining residential and datacenter proxy networks, anti-bot circumvention, headless browser automation, and managed crawler infrastructure. This collection includes scraping APIs like ScrapingBee,
+  Scrapfly, ScrapingAnt, ScraperAPI, and Zyte; proxy networks like Bright Data, Oxylabs, Smartproxy, SOAX, and Nimble; data extraction platforms like Apify, Diffbot, Outscraper, Octoparse, and Datafiniti;
+  SERP APIs like SerpApi; AI-first crawlers like Firecrawl, Crawl4AI, Jina AI, Browser Use, and AgentQL; and open-source scraping toolkits like Scrapy, Crawlee, Beautiful Soup, and Cheerio.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Web Scraping
+- Data Extraction
+- Proxy Network
+- SERP API
+- Residential Proxies
+- Web Crawling
+- Anti-Bot Circumvention
+- Headless Browser
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: AgentQL
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/apis.yml
+- name: Apify
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/apis.yml
+- name: Beautiful Soup
+  url: https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/apis.yml
+- name: Bright Data
+  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/apis.yml
+- name: Browser Use
+  url: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/apis.yml
+- name: Cheerio
+  url: https://raw.githubusercontent.com/api-evangelist/cheerio/refs/heads/main/apis.yml
+- name: Crawl4AI
+  url: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/apis.yml
+- name: Crawlee
+  url: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/apis.yml
+- name: Datafiniti
+  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/apis.yml
+- name: Diffbot
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/apis.yml
+- name: Firecrawl
+  url: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/apis.yml
+- name: Foodspark
+  url: https://raw.githubusercontent.com/api-evangelist/foodspark/refs/heads/main/apis.yml
+- name: Import.io
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/apis.yml
+- name: Jina AI
+  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/apis.yml
+- name: Nimble
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/apis.yml
+- name: Octoparse
+  url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/apis.yml
+- name: Outscraper
+  url: https://raw.githubusercontent.com/api-evangelist/outscraper/refs/heads/main/apis.yml
+- name: Oxylabs
+  url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/apis.yml
+- name: ParseHub
+  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/apis.yml
+- name: ScraperAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/apis.yml
+- name: Scrapfly
+  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/apis.yml
+- name: ScrapingAnt
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/apis.yml
+- name: ScrapingBee
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/apis.yml
+- name: Scrapy
+  url: https://raw.githubusercontent.com/api-evangelist/scrapy/refs/heads/main/apis.yml
+- name: SerpApi
+  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/apis.yml
+- name: Smartproxy
+  url: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/apis.yml
+- name: SOAX
+  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/apis.yml
+- name: Zyte
+  url: https://raw.githubusercontent.com/api-evangelist/zyte/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Proxy Network Access
+    description: Scraping platforms expose massive pools of residential, mobile, datacenter, and ISP proxies that rotate IP addresses to distribute requests and bypass rate limits.
+  - name: Anti-Bot Circumvention
+    description: Managed scraping APIs handle browser fingerprinting, TLS fingerprinting, CAPTCHA solving, and JavaScript challenges so consumers do not need to maintain their own bypass logic.
+  - name: Headless Browser Rendering
+    description: Scraping APIs run real headless browsers (Chromium, Firefox, WebKit) on demand to execute JavaScript, wait for dynamic content, and capture fully rendered HTML or screenshots.
+  - name: Structured Data Extraction
+    description: Platforms like Diffbot and Apify convert unstructured HTML into normalized JSON for products, articles, jobs, places, and other entity types using machine learning extraction.
+  - name: SERP and Search Engine Scraping
+    description: SERP APIs like SerpApi, Bright Data SERP, and Oxylabs SERP scrape Google, Bing, Yahoo, Baidu, DuckDuckGo, and other search engines into structured JSON results.
+  - name: AI-Native Web Reading
+    description: New crawlers like Firecrawl, Jina Reader, and Crawl4AI convert any URL into clean Markdown or structured JSON optimized for LLM and RAG ingestion.
+  - name: Job Scheduling and Crawl Orchestration
+    description: Platforms like Apify, Octoparse, and Zyte run scheduled scraping jobs, distribute work across thousands of workers, and persist datasets for downstream consumption.
+- type: UseCases
+  data:
+  - name: E-Commerce Price Intelligence
+    description: Retailers and marketplaces scrape competitor product pages across Amazon, Walmart, and Shopify storefronts to track pricing, availability, and assortment in near real time.
+  - name: SEO and SERP Monitoring
+    description: SEO platforms use SerpApi, Bright Data, and Oxylabs SERP APIs to track keyword rankings, featured snippets, and competitor visibility across global Google locales.
+  - name: Lead Generation and Sales Intelligence
+    description: Sales teams scrape LinkedIn, business directories, and review sites to enrich CRM records with contact details, company firmographics, and intent signals.
+  - name: Brand and Review Monitoring
+    description: Brand teams scrape product reviews, social posts, and forums to monitor sentiment, detect counterfeits, and respond to support issues.
+  - name: Real Estate and Travel Aggregation
+    description: Real estate and travel aggregators scrape listings from Zillow, Redfin, Airbnb, Booking.com, and Kayak to build search and comparison products.
+  - name: AI and RAG Data Ingestion
+    description: AI teams use Firecrawl, Jina Reader, and Bright Data to crawl public web content into Markdown for retrieval-augmented generation pipelines and training datasets.
+  - name: Financial and Alternative Data
+    description: Hedge funds and analysts scrape job postings, app store rankings, and pricing pages to build alternative-data signals for investment models.
+- type: Integrations
+  data:
+  - name: Bright Data
+    description: Largest commercial proxy network with 150M+ residential IPs, plus managed Web Unlocker, SERP API, and Web Scraper IDE for end-to-end data collection.
+  - name: Oxylabs
+    description: Premium residential, datacenter, and mobile proxies with Web Scraper API, SERP Scraper API, and E-Commerce Scraper API products.
+  - name: Apify
+    description: Marketplace of 4,000+ pre-built scrapers (Actors) plus a serverless platform for running, scheduling, and storing scraped datasets.
+  - name: Firecrawl
+    description: AI-native crawler that converts websites into Markdown, structured JSON, or screenshots optimized for LLM and RAG workflows.
+  - name: ScrapingBee
+    description: Managed scraping API that handles headless browsers, proxy rotation, and CAPTCHA bypass with simple HTTP requests.
+  - name: SerpApi
+    description: Real-time SERP scraping API supporting Google, Bing, Yahoo, Baidu, YouTube, Amazon, eBay, and 30+ other search engines with structured JSON output.
+  - name: Diffbot
+    description: AI-powered structured extraction across articles, products, discussions, videos, and a public Knowledge Graph of 10B+ entities.
+  - name: Zyte
+    description: End-to-end scraping platform from the creators of Scrapy, with Smart Proxy Manager, automatic unblocking, and structured data APIs.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

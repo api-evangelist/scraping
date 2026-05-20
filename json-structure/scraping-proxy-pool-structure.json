@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/json-structure/scraping-proxy-pool-structure.json",
+  "name": "ProxyPool",
+  "description": "Represents a pool of proxy IPs offered by a proxy network, including type, geography, rotation behavior, and authentication.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of the proxy pool.",
+      "example": "pool_residential_us_rotating"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the proxy pool.",
+      "example": "Residential US Rotating"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Proxy network provider operating the pool.",
+      "example": "Bright Data"
+    },
+    "proxy_type": {
+      "type": "string",
+      "enum": [
+        "residential",
+        "datacenter",
+        "mobile",
+        "isp"
+      ],
+      "description": "Type of proxies that make up the pool.",
+      "example": "residential"
+    },
+    "rotation": {
+      "type": "string",
+      "enum": [
+        "per-request",
+        "sticky",
+        "timed"
+      ],
+      "description": "How IP addresses are rotated across requests in the pool.",
+      "example": "per-request"
+    },
+    "sticky_session_ttl_seconds": {
+      "type": "integer",
+      "description": "Lifetime of a sticky session in seconds when rotation is sticky or timed.",
+      "example": 600
+    },
+    "countries": {
+      "type": "array",
+      "description": "ISO 3166-1 alpha-2 country codes available for geo-targeting in the pool.",
+      "items": {
+        "type": "string"
+      },
+      "example": [
+        "US",
+        "GB",
+        "DE",
+        "JP"
+      ]
+    },
+    "pool_size": {
+      "type": "integer",
+      "description": "Approximate number of unique IPs available in the pool.",
+      "example": 150000000
+    },
+    "endpoint": {
+      "type": "uri",
+      "description": "Hostname or URL clients connect to in order to use the pool.",
+      "example": "brd.superproxy.io:33335"
+    },
+    "authentication": {
+      "type": "object",
+      "description": "Authentication required to use the pool.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "userpass",
+            "ip-whitelist",
+            "token"
+          ],
+          "example": "userpass"
+        }
+      }
+    },
+    "protocols": {
+      "type": "array",
+      "description": "Supported proxy protocols.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "http",
+          "https",
+          "socks5"
+        ]
+      },
+      "example": [
+        "http",
+        "https",
+        "socks5"
+      ]
+    },
+    "pricing_model": {
+      "type": "string",
+      "enum": [
+        "per-gb",
+        "per-request",
+        "per-ip",
+        "subscription"
+      ],
+      "description": "How usage of the pool is billed.",
+      "example": "per-gb"
+    }
+  },
+  "required": [
+    "name",
+    "provider",
+    "proxy_type"
+  ]
+}

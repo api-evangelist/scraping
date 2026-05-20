@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/json-schema/scraping-scrape-job-schema.json",
+  "title": "ScrapeJob",
+  "description": "Represents a single scrape job submitted to a web scraping API, including target URL, rendering options, proxy preferences, and result location.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the scrape job assigned by the platform.",
+      "example": "job_01HZX7K8QF3M2NYA9W7B6S5C4D"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Target URL to scrape.",
+      "example": "https://www.example.com/product/12345"
+    },
+    "method": {
+      "type": "string",
+      "enum": ["GET", "POST", "PUT", "DELETE", "PATCH"],
+      "description": "HTTP method used to fetch the target URL.",
+      "example": "GET"
+    },
+    "render_js": {
+      "type": "boolean",
+      "description": "Whether the target should be rendered in a headless browser so JavaScript executes before extraction.",
+      "example": true
+    },
+    "country": {
+      "type": "string",
+      "description": "Two-letter ISO country code that the request should originate from via geo-targeted proxies.",
+      "example": "US"
+    },
+    "proxy_type": {
+      "type": "string",
+      "enum": ["residential", "datacenter", "mobile", "isp", "none"],
+      "description": "Type of proxy pool used for the request.",
+      "example": "residential"
+    },
+    "wait_for_selector": {
+      "type": "string",
+      "description": "Optional CSS selector that the rendering browser should wait for before returning the response.",
+      "example": "#product-price"
+    },
+    "extract": {
+      "type": "object",
+      "description": "Optional structured extraction rules applied to the rendered page.",
+      "properties": {
+        "format": {
+          "type": "string",
+          "enum": ["html", "markdown", "json", "screenshot", "pdf"],
+          "example": "markdown"
+        },
+        "selectors": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "example": { "title": "h1", "price": ".price" }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["queued", "running", "succeeded", "failed", "cancelled"],
+      "description": "Current execution status of the scrape job.",
+      "example": "succeeded"
+    },
+    "status_code": {
+      "type": "integer",
+      "description": "HTTP status code returned by the target server.",
+      "example": 200
+    },
+    "result_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL where the scraped result payload is stored.",
+      "example": "https://api.example-scraper.com/jobs/job_01HZX7K8QF/result"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the job was submitted.",
+      "example": "2026-05-19T14:32:00Z"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the job finished.",
+      "example": "2026-05-19T14:32:11Z"
+    }
+  },
+  "required": ["url", "status"]
+}

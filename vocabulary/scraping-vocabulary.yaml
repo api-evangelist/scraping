@@ -1,0 +1,262 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Scraping
+  description: Vocabulary for the web scraping topic, covering scraping APIs, proxy networks, headless browser rendering, structured extraction, and SERP scraping platforms.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Bright Data
+      namespace: bright-data
+      status: active
+    - name: Oxylabs
+      namespace: oxylabs
+      status: active
+    - name: ScrapingBee
+      namespace: scrapingbee
+      status: active
+    - name: Apify
+      namespace: apify
+      status: active
+    - name: Firecrawl
+      namespace: firecrawl
+      status: active
+    - name: SerpApi
+      namespace: serpapi
+      status: active
+    - name: Zyte
+      namespace: zyte
+      status: active
+
+  resources:
+    - name: scrape-jobs
+      description: Individual scrape job submissions to a scraping API or platform
+      actions:
+        - create
+        - get
+        - list
+        - cancel
+    - name: scrape-results
+      description: Stored payloads (HTML, Markdown, JSON, screenshots) produced by completed scrape jobs
+      actions:
+        - get
+        - list
+        - delete
+    - name: proxy-pools
+      description: Pools of residential, datacenter, mobile, or ISP proxies offered by a proxy network
+      actions:
+        - list
+        - get
+    - name: proxy-sessions
+      description: Sticky or rotating sessions allocated against a proxy pool
+      actions:
+        - create
+        - get
+        - delete
+    - name: serp-results
+      description: Structured search engine result pages scraped from Google, Bing, and other engines
+      actions:
+        - get
+        - search
+    - name: datasets
+      description: Persisted, structured datasets produced by scrapers or actors
+      actions:
+        - list
+        - get
+        - export
+
+  actions:
+    - name: create
+      description: Submit a new scrape job, proxy session, or extraction task
+      httpMethod: POST
+      pattern: write
+    - name: get
+      description: Retrieve a single resource by identifier
+      httpMethod: GET
+      pattern: read
+    - name: list
+      description: Enumerate resources owned by the caller
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Query SERP, dataset, or knowledge graph resources by criteria
+      httpMethod: GET
+      pattern: query
+    - name: cancel
+      description: Cancel a running scrape job
+      httpMethod: POST
+      pattern: write
+    - name: export
+      description: Export a dataset in CSV, JSON, JSONL, or Parquet format
+      httpMethod: GET
+      pattern: read
+    - name: delete
+      description: Remove a scrape result, session, or dataset
+      httpMethod: DELETE
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: ScrapeJob
+        description: A single scrape job submitted to a web scraping API
+        properties:
+          - url
+          - method
+          - render_js
+          - country
+          - proxy_type
+          - wait_for_selector
+          - extract
+          - status
+          - result_url
+      - name: ProxyPool
+        description: A pool of proxy IPs offered by a proxy network
+        properties:
+          - name
+          - provider
+          - proxy_type
+          - rotation
+          - countries
+          - pool_size
+          - endpoint
+          - authentication
+          - protocols
+          - pricing_model
+
+  enums:
+    proxy_types:
+      - residential
+      - datacenter
+      - mobile
+      - isp
+    rotation_strategies:
+      - per-request
+      - sticky
+      - timed
+    job_statuses:
+      - queued
+      - running
+      - succeeded
+      - failed
+      - cancelled
+    output_formats:
+      - html
+      - markdown
+      - json
+      - screenshot
+      - pdf
+    pricing_models:
+      - per-gb
+      - per-request
+      - per-ip
+      - subscription
+
+capability:
+  workflows:
+    - name: E-Commerce Price Monitoring
+      description: Continuously scrape competitor product pages across marketplaces and storefronts to extract prices, stock levels, and assortments
+      apis:
+        - bright-data
+        - oxylabs
+        - scrapingbee
+        - apify
+      personas:
+        - Data Engineer
+      domains:
+        - Web Scraping
+        - Proxy Network
+    - name: SERP Rank Tracking
+      description: Query SERP APIs across thousands of keywords and geographies to track organic and paid search visibility
+      apis:
+        - serpapi
+        - bright-data
+        - oxylabs
+      personas:
+        - SEO Analyst
+      domains:
+        - SERP API
+    - name: AI and RAG Web Ingestion
+      description: Crawl public web content into Markdown or structured JSON for retrieval-augmented generation pipelines
+      apis:
+        - firecrawl
+        - jina-ai
+        - crawl4ai
+        - bright-data
+      personas:
+        - AI Engineer
+      domains:
+        - Web Scraping
+        - Data Extraction
+    - name: Lead and Contact Enrichment
+      description: Scrape business directories, LinkedIn, and review sites to enrich CRM records with firmographic and contact data
+      apis:
+        - apify
+        - outscraper
+        - diffbot
+      personas:
+        - Growth Engineer
+      domains:
+        - Data Extraction
+
+  personas:
+    - id: data-engineer
+      name: Data Engineer
+      description: Engineers responsible for building and operating scraping and data collection pipelines
+      workflows:
+        - E-Commerce Price Monitoring
+    - id: seo-analyst
+      name: SEO Analyst
+      description: Analysts tracking organic and paid search performance across keywords and geographies
+      workflows:
+        - SERP Rank Tracking
+    - id: ai-engineer
+      name: AI Engineer
+      description: Engineers ingesting public web content into LLM training and RAG pipelines
+      workflows:
+        - AI and RAG Web Ingestion
+    - id: growth-engineer
+      name: Growth Engineer
+      description: Engineers and operators building lead generation and sales enrichment pipelines
+      workflows:
+        - Lead and Contact Enrichment
+
+  domains:
+    - name: Web Scraping
+      description: Platforms and toolkits for fetching, rendering, and extracting data from websites
+    - name: Proxy Network
+      description: Residential, datacenter, mobile, and ISP proxy infrastructure for distributing scraping requests
+    - name: SERP API
+      description: APIs that return structured search engine result pages for Google, Bing, and other engines
+    - name: Data Extraction
+      description: Platforms that turn unstructured HTML into normalized structured data for products, articles, places, and other entities
+
+crossReference:
+  - resource: scrape-jobs
+    operations:
+      - create
+      - get
+      - list
+    workflows:
+      - E-Commerce Price Monitoring
+      - AI and RAG Web Ingestion
+    personas:
+      - Data Engineer
+      - AI Engineer
+  - resource: serp-results
+    operations:
+      - get
+      - search
+    workflows:
+      - SERP Rank Tracking
+    personas:
+      - SEO Analyst
+  - resource: proxy-pools
+    operations:
+      - list
+      - get
+    workflows:
+      - E-Commerce Price Monitoring
+    personas:
+      - Data Engineer

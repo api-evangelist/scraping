@@ -1,0 +1,22 @@
+{
+  "id": "job_01HZX7K8QF3M2NYA9W7B6S5C4D",
+  "url": "https://www.example.com/product/12345",
+  "method": "GET",
+  "render_js": true,
+  "country": "US",
+  "proxy_type": "residential",
+  "wait_for_selector": "#product-price",
+  "extract": {
+    "format": "json",
+    "selectors": {
+      "title": "h1.product-title",
+      "price": "span.price",
+      "availability": "div.stock-status"
+    }
+  },
+  "status": "succeeded",
+  "status_code": 200,
+  "result_url": "https://api.example-scraper.com/jobs/job_01HZX7K8QF3M2NYA9W7B6S5C4D/result",
+  "created_at": "2026-05-19T14:32:00Z",
+  "completed_at": "2026-05-19T14:32:11Z"
+}

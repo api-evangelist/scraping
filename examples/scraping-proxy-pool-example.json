@@ -1,0 +1,16 @@
+{
+  "id": "pool_residential_us_rotating",
+  "name": "Residential US Rotating",
+  "provider": "Bright Data",
+  "proxy_type": "residential",
+  "rotation": "per-request",
+  "sticky_session_ttl_seconds": 0,
+  "countries": ["US", "GB", "DE", "FR", "JP", "BR", "AU", "CA"],
+  "pool_size": 150000000,
+  "endpoint": "brd.superproxy.io:33335",
+  "authentication": {
+    "type": "userpass"
+  },
+  "protocols": ["http", "https", "socks5"],
+  "pricing_model": "per-gb"
+}
