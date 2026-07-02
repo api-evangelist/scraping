@@ -3,8 +3,6 @@ An index and topic collection covering web scraping platforms, proxy networks, S
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - Web Scraping, Data Extraction, Proxy Network, SERP API, Residential Proxies, Web Crawling, Anti-Bot Circumvention, Headless Browser
