@@ -1,5 +1,5 @@
 # Scraping (scraping)
-An index and topic collection covering web scraping platforms, proxy networks, SERP APIs, browser-based extraction services, and data collection APIs. Scraping platforms turn the public web into structured data by combining residential and datacenter proxy networks, anti-bot circumvention, headless browser automation, and managed crawler infrastructure. This collection includes scraping APIs like ScrapingBee, Scrapfly, ScrapingAnt, ScraperAPI, and Zyte; proxy networks like Bright Data, Oxylabs, Smartproxy, SOAX, and Nimble; data extraction platforms like Apify, Diffbot, Outscraper, Octoparse, and Datafiniti; SERP APIs like SerpApi; AI-first crawlers like Firecrawl, Crawl4AI, Jina AI, Browser Use, and AgentQL; and open-source scraping toolkits like Scrapy, Crawlee, Beautiful Soup, and Cheerio.
+An index and topic collection covering web scraping platforms, proxy networks, SERP APIs, browser-based extraction services, and data collection APIs. Scraping platforms turn the public web into structured data by combining residential and datacenter proxy networks, anti-bot circumvention, headless browser automation, and managed crawler infrastructure. This collection includes scraping APIs like ScrapingBee, Scrapfly, ScrapingAnt, ScraperAPI, and Zyte; proxy networks like Bright Data, Oxylabs, Smartproxy, SOAX, and Nimble; data extraction platforms like Apify, Diffbot, Octoparse, and Datafiniti; SERP APIs like SerpApi; AI-first crawlers like Firecrawl, Crawl4AI, Jina AI, Browser Use, and AgentQL; and open-source scraping toolkits like Scrapy, Crawlee, Beautiful Soup, and Cheerio.
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
@@ -100,7 +100,6 @@ This index references the following web scraping, proxy, and data extraction rep
 - [Jina AI](https://github.com/api-evangelist/jina-ai)
 - [Nimble](https://github.com/api-evangelist/nimble)
 - [Octoparse](https://github.com/api-evangelist/octoparse)
-- [Outscraper](https://github.com/api-evangelist/outscraper)
 - [Oxylabs](https://github.com/api-evangelist/oxylabs)
 - [ParseHub](https://github.com/api-evangelist/parsehub)
 - [ScraperAPI](https://github.com/api-evangelist/scraper-api)

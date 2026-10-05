@@ -3,7 +3,7 @@ name: Scraping
 description: >-
   An index and topic collection covering web scraping platforms, proxy networks, SERP APIs, browser-based extraction services, and data collection APIs. Scraping platforms turn the public web into structured
   data by combining residential and datacenter proxy networks, anti-bot circumvention, headless browser automation, and managed crawler infrastructure. This collection includes scraping APIs like ScrapingBee,
-  Scrapfly, ScrapingAnt, ScraperAPI, and Zyte; proxy networks like Bright Data, Oxylabs, Smartproxy, SOAX, and Nimble; data extraction platforms like Apify, Diffbot, Outscraper, Octoparse, and Datafiniti;
+  Scrapfly, ScrapingAnt, ScraperAPI, and Zyte; proxy networks like Bright Data, Oxylabs, Smartproxy, SOAX, and Nimble; data extraction platforms like Apify, Diffbot, Octoparse, and Datafiniti;
   SERP APIs like SerpApi; AI-first crawlers like Firecrawl, Crawl4AI, Jina AI, Browser Use, and AgentQL; and open-source scraping toolkits like Scrapy, Crawlee, Beautiful Soup, and Cheerio.
 type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -55,8 +55,6 @@ network:
   url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/apis.yml
 - name: Octoparse
   url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/apis.yml
-- name: Outscraper
-  url: https://raw.githubusercontent.com/api-evangelist/outscraper/refs/heads/main/apis.yml
 - name: Oxylabs
   url: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/apis.yml
 - name: ParseHub
