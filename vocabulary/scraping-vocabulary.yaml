@@ -193,7 +193,6 @@ capability:
       description: Scrape business directories, LinkedIn, and review sites to enrich CRM records with firmographic and contact data
       apis:
         - apify
-        - outscraper
         - diffbot
       personas:
         - Growth Engineer
