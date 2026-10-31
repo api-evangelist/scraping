@@ -1,119 +1,97 @@
-# Scraping (scraping)
+# Scraping
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 An index and topic collection covering web scraping platforms, proxy networks, SERP APIs, browser-based extraction services, and data collection APIs. Scraping platforms turn the public web into structured data by combining residential and datacenter proxy networks, anti-bot circumvention, headless browser automation, and managed crawler infrastructure. This collection includes scraping APIs like ScrapingBee, Scrapfly, ScrapingAnt, ScraperAPI, and Zyte; proxy networks like Bright Data, Oxylabs, Smartproxy, SOAX, and Nimble; data extraction platforms like Apify, Diffbot, Octoparse, and Datafiniti; SERP APIs like SerpApi; AI-first crawlers like Firecrawl, Crawl4AI, Jina AI, Browser Use, and AgentQL; and open-source scraping toolkits like Scrapy, Crawlee, Beautiful Soup, and Cheerio.
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** Web Scraping · Data Extraction · Proxy Network · SERP · Residential Proxies · Web Crawling · Anti-Bot Circumvention · Headless Browser
 
-## Tags:
+## Scraping on APIs.io
 
- - Web Scraping, Data Extraction, Proxy Network, SERP API, Residential Proxies, Web Crawling, Anti-Bot Circumvention, Headless Browser
+Everything profiled for Scraping is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scraping/](https://apis.io/providers/scraping/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Scrape Job Schema](https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/json-schema/scraping-scrape-job-schema.json)
-- [JSONSchema - Proxy Pool Schema](https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/json-schema/scraping-proxy-pool-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/json-ld/scraping-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/scraping/refs/heads/main/vocabulary/scraping-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Proxy Network Access | Scraping platforms expose massive pools of residential, mobile, datacenter, and ISP proxies that rotate IP addresses to distribute requests and bypass rate limits. |
-| Anti-Bot Circumvention | Managed scraping APIs handle browser fingerprinting, TLS fingerprinting, CAPTCHA solving, and JavaScript challenges so consumers do not need to maintain their own bypass logic. |
-| Headless Browser Rendering | Scraping APIs run real headless browsers (Chromium, Firefox, WebKit) on demand to execute JavaScript, wait for dynamic content, and capture fully rendered HTML or screenshots. |
-| Structured Data Extraction | Platforms like Diffbot and Apify convert unstructured HTML into normalized JSON for products, articles, jobs, places, and other entity types using machine learning extraction. |
-| SERP and Search Engine Scraping | SERP APIs like SerpApi, Bright Data SERP, and Oxylabs SERP scrape Google, Bing, Yahoo, Baidu, DuckDuckGo, and other search engines into structured JSON results. |
-| AI-Native Web Reading | New crawlers like Firecrawl, Jina Reader, and Crawl4AI convert any URL into clean Markdown or structured JSON optimized for LLM and RAG ingestion. |
-| Job Scheduling and Crawl Orchestration | Platforms like Apify, Octoparse, and Zyte run scheduled scraping jobs, distribute work across thousands of workers, and persist datasets for downstream consumption. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| E-Commerce Price Intelligence | Retailers scrape competitor product pages across Amazon, Walmart, and Shopify storefronts to track pricing, availability, and assortment in near real time. |
-| SEO and SERP Monitoring | SEO platforms use SerpApi, Bright Data, and Oxylabs SERP APIs to track keyword rankings, featured snippets, and competitor visibility across global Google locales. |
-| Lead Generation and Sales Intelligence | Sales teams scrape LinkedIn, business directories, and review sites to enrich CRM records with contact details, firmographics, and intent signals. |
-| Brand and Review Monitoring | Brand teams scrape product reviews, social posts, and forums to monitor sentiment, detect counterfeits, and respond to support issues. |
-| Real Estate and Travel Aggregation | Aggregators scrape listings from Zillow, Redfin, Airbnb, Booking.com, and Kayak to build search and comparison products. |
-| AI and RAG Data Ingestion | AI teams use Firecrawl, Jina Reader, and Bright Data to crawl public web content into Markdown for retrieval-augmented generation pipelines. |
-| Financial and Alternative Data | Hedge funds and analysts scrape job postings, app store rankings, and pricing pages to build alternative-data signals for investment models. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Scraping: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Bright Data | Largest commercial proxy network with 150M+ residential IPs, plus managed Web Unlocker, SERP API, and Web Scraper IDE. |
-| Oxylabs | Premium residential, datacenter, and mobile proxies with Web Scraper API, SERP Scraper API, and E-Commerce Scraper API products. |
-| Apify | Marketplace of 4,000+ pre-built scrapers (Actors) plus a serverless platform for running, scheduling, and storing scraped datasets. |
-| Firecrawl | AI-native crawler that converts websites into Markdown, structured JSON, or screenshots optimized for LLM and RAG workflows. |
-| ScrapingBee | Managed scraping API that handles headless browsers, proxy rotation, and CAPTCHA bypass with simple HTTP requests. |
-| SerpApi | Real-time SERP scraping API supporting Google, Bing, Yahoo, Baidu, YouTube, Amazon, eBay, and 30+ other search engines. |
-| Diffbot | AI-powered structured extraction across articles, products, discussions, videos, and a public Knowledge Graph of 10B+ entities. |
-| Zyte | End-to-end scraping platform from the creators of Scrapy, with Smart Proxy Manager, automatic unblocking, and structured data APIs. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable API specifications organized by format.
-
-### JSON Schema
-
-- [Scrape Job Schema](json-schema/scraping-scrape-job-schema.json)
-- [Proxy Pool Schema](json-schema/scraping-proxy-pool-schema.json)
-
-### JSON Structure
-
-- [Scrape Job Structure](json-structure/scraping-scrape-job-structure.json)
-- [Proxy Pool Structure](json-structure/scraping-proxy-pool-structure.json)
-
-### JSON-LD
-
-- [Scraping Context](json-ld/scraping-context.jsonld)
-
-## Vocabulary
-
-- [Scraping Vocabulary](vocabulary/scraping-vocabulary.yaml) — Unified taxonomy mapping resources, actions, workflows, and personas across web scraping APIs, proxy networks, and structured extraction platforms
-
-## Network
-
-This index references the following web scraping, proxy, and data extraction repositories:
-
-- [AgentQL](https://github.com/api-evangelist/agentql)
-- [Apify](https://github.com/api-evangelist/apify)
-- [Beautiful Soup](https://github.com/api-evangelist/beautiful-soup)
-- [Bright Data](https://github.com/api-evangelist/bright-data)
-- [Browser Use](https://github.com/api-evangelist/browser-use)
-- [Cheerio](https://github.com/api-evangelist/cheerio)
-- [Crawl4AI](https://github.com/api-evangelist/crawl4ai)
-- [Crawlee](https://github.com/api-evangelist/crawlee)
-- [Datafiniti](https://github.com/api-evangelist/datafiniti)
-- [Diffbot](https://github.com/api-evangelist/diffbot)
-- [Firecrawl](https://github.com/api-evangelist/firecrawl)
-- [Foodspark](https://github.com/api-evangelist/foodspark)
-- [Import.io](https://github.com/api-evangelist/import-io)
-- [Jina AI](https://github.com/api-evangelist/jina-ai)
-- [Nimble](https://github.com/api-evangelist/nimble)
-- [Octoparse](https://github.com/api-evangelist/octoparse)
-- [Oxylabs](https://github.com/api-evangelist/oxylabs)
-- [ParseHub](https://github.com/api-evangelist/parsehub)
-- [ScraperAPI](https://github.com/api-evangelist/scraper-api)
-- [Scrapfly](https://github.com/api-evangelist/scrapfly)
-- [ScrapingAnt](https://github.com/api-evangelist/scrapingant)
-- [ScrapingBee](https://github.com/api-evangelist/scrapingbee)
-- [Scrapy](https://github.com/api-evangelist/scrapy)
-- [SerpApi](https://github.com/api-evangelist/serpapi)
-- [Smartproxy](https://github.com/api-evangelist/smartproxy)
-- [SOAX](https://github.com/api-evangelist/soax)
-- [Zyte](https://github.com/api-evangelist/zyte)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scraping/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
