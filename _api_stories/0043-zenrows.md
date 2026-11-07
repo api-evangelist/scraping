@@ -1,7 +1,7 @@
 ---
-title: 'Introducing Zenrows MCP: The Universal Connector for AI Web Scraping'
-link: https://www.zenrows.com/blog/zenrows-mcp-server
-published: '2026-03-30'
+title: 'Puppeteer MCP Server: LLM Web Scraping Guide'
+link: https://www.zenrows.com/blog/puppeteer-mcp
+published: '2026-04-24'
 provider: zenrows
 repo: https://github.com/api-evangelist/zenrows
 domain: www.zenrows.com
